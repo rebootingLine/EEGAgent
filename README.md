@@ -5,76 +5,75 @@ Scalable and generalizable analysis of brain activity is essential for advancing
 ![EEGAgent Framework](framework.png)
 
 # Project Structure
+```
 EEGAgent/
-├── main.py                         # Main project entry point
-├── prompt.py                       # Prompt construction and management
-├── MDD_eval.py                     # Evaluation pipeline for MDD task
-├── Sleep_eval.py                   # Evaluation pipeline for sleep staging
-├── TUSL_eval.py                    # Evaluation pipeline for TUSL task
-├── README.md                       # Project documentation
-├── __init__.py
+├─ main.py                 # Main project entry point
+├─ prompt.py               # Prompt construction and management
+├─ MDD_eval.py             # Evaluation pipeline for MDD task
+├─ Sleep_eval.py           # Evaluation pipeline for sleep staging
+├─ TUSL_eval.py            # Evaluation pipeline for TUSL task
+├─ README.md               # Project documentation
+├─ __init__.py
 
-│
-├── config/
-│   └── config.json                 # Global configuration and parameters
-│
-├── data/                           # Raw EEG data files
-│   ├── *.edf / *.rec               # Raw EEG recordings
-│   └── edf/                        # Folder for additional EDF files
-│
-├── eval/                           # Training and evaluation modules
-│   ├── MDD/
-│   │   ├── train.py                # Training script for MDD detection
-│   │   ├── predeal.py              # Data preprocessing
-│   │   ├── README                  # MDD task documentation
-│   │   ├── checkpoints/            # Trained model checkpoints
-│   │   └── data/, raw/             # Processed and raw datasets
-│   │
-│   └── sleep/
-│       ├── train.py                # Training script for sleep staging
-│       ├── predeal.py              # Data preprocessing
-│       ├── README                  # Sleep staging documentation
-│       ├── checkpoints/            # Trained model weights
-│       └── data/, sleep-cassette/  # Dataset directories
-│
-├── RAG/                            # Retrieval-Augmented Generation module
-│   ├── chunker.py                  # Document chunking
-│   ├── embedder.py                 # Embedding generation
-│   ├── indexer.py                  # FAISS index construction
-│   ├── searcher.py                 # Vector search engine
-│   ├── txtDealer.py                # Text processing utilities
-│   ├── chunks.pkl, faiss.index     # Pre-built vector index files
-│   │
-│   ├── docs/                       # EEG-related documents and guidelines, support add files.
-│   └── sentenceModel/              # Local embedding model (bge-m3)
-│       └── bge-m3/                 # Model weights and tokenizer files
-│
-├── tools/                          # EEG processing and feature extraction utilities
-│   ├── baseInfo.py                 # Basic EEG information extraction
-│   ├── dataLoad.py                 # Data loading utilities
-│   ├── preprocessing.py            # Signal preprocessing
-│   ├── singleChannel.py            # Single-channel EEG models
-│   ├── sleepStage.py               # Sleep stage classification model
-│   ├── normalAbnormal.py           # Normal/abnormal classification model
-│   ├── reflectData.py              # Data transformation utilities
-│   ├── healthMDD.py                # Health/MDD classification model
-│   ├── polar.py                    # polar coordinates
-│   ├── windowInfo.py               # window info tools
-│   ├── slowSeizBckg.py             # Slow/Seizure/Background classification models
-│   ├── register.py, registerData.py# Data registration
-│   │
-│   ├── localModels/                # Lightweight local models and weights
-│   │   ├── net.py, vote.py         # Model architecture and voting mechanism
-│   │   ├── *.pth                   # Model weight files for sub-tasks
-│   │   └── __pycache__             # Cached bytecode files
-│   │
-│   └── __pycache__                 # Cached modules
-│
-└── utils/
-    ├── messageMerge.py             # Utility for merging messages/results
-    ├── parseCalling.py             # LLM call parsing utilities
-    ├── transFormat.py              # Data format transformation
-    └── __pycache__                 # Cached modules
+├─ config/
+│  └─ config.json          # Global configuration and parameters
+
+├─ data/                   # Raw EEG data files
+│  ├─ *.edf / *.rec        # Raw EEG recordings
+│  └─ edf/                 # Additional EDF files
+
+├─ eval/                   # Training and evaluation modules
+│  ├─ MDD/
+│  │  ├─ train.py
+│  │  ├─ predeal.py
+│  │  ├─ README
+│  │  ├─ checkpoints/
+│  │  └─ data/, raw/
+│  └─ sleep/
+│     ├─ train.py
+│     ├─ predeal.py
+│     ├─ README
+│     ├─ checkpoints/
+│     └─ data/, sleep-cassette/
+
+├─ RAG/                    # Retrieval-Augmented Generation module
+│  ├─ chunker.py
+│  ├─ embedder.py
+│  ├─ indexer.py
+│  ├─ searcher.py
+│  ├─ txtDealer.py
+│  ├─ chunks.pkl, faiss.index
+│  ├─ docs/
+│  └─ sentenceModel/
+│     └─ bge-m3/
+
+├─ tools/                  # EEG processing and feature extraction utilities
+│  ├─ baseInfo.py
+│  ├─ dataLoad.py
+│  ├─ preprocessing.py
+│  ├─ singleChannel.py
+│  ├─ sleepStage.py
+│  ├─ normalAbnormal.py
+│  ├─ reflectData.py
+│  ├─ healthMDD.py
+│  ├─ polar.py
+│  ├─ windowInfo.py
+│  ├─ slowSeizBckg.py
+│  ├─ register.py
+│  ├─ registerData.py
+│  ├─ localModels/
+│  │  ├─ net.py
+│  │  ├─ vote.py
+│  │  ├─ *.pth
+│  │  └─ __pycache__/
+│  └─ __pycache__/
+
+└─ utils/
+   ├─ messageMerge.py
+   ├─ parseCalling.py
+   ├─ transFormat.py
+   └─ __pycache__/
+```
 
 # note
 ## Adding New Tools
