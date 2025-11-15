@@ -1,0 +1,4 @@
+get a model by training on MDD Patients and Healthy Controls EEG Data (New) (https://figshare.com/articles/dataset/EEG_Data_New/4244171)
+step1. Download Dataset to raw
+step2. execute predeal.py
+step3. execute train.py

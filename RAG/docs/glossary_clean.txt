@@ -1,0 +1,712 @@
+Absence: A generalized seizure type. Use of term discouraged when describing EEG patterns. Terms suggested, whenever appropriate: spike-and-slow-wave complex, 3 c/s spike-and-slow-wave complex, sharp-and-slow wave complex.
+
+Activation procedure: Any procedure designed to modulate EEG activity, for instance to enhance physiological waveforms or elicit abnormal paroxysmal activity. Examples include: eye closing, hyperventilation, photic stimulation, natural or drug-induced sleep, sensory stimulation (acoustic, somatosensory or pain).
+
+Active sleep: Normal sleep stage in neonates characterized by eye closure, intermittent periods of rapid eye movements, irregular respirations and scant body movements. The EEG shows activité moyenne in term and near term infants, and tracé discontinue (discontinuous pattern) in preterm infants <34 weeks of post menstrual age (PMA); the inter-burst interval depends on the PMA. (See quiet sleep, activité moyenne, tracé discontinue, REM sleep).
+
+Activity: , EEG: An EEG wave or sequence of waves of cerebral origin.
+
+Activité moyenne: Neonatal EEG pattern of wakefulness and active sleep in term and near term infants characterized by continuous, low to medium amplitude mixed frequency activity (25–50 µV) with a predominance of theta and delta and overriding beta activity. Synonym: mixed frequency activity. (See active sleep).
+
+After-discharge: (1) EEG seizure pattern following single or repetitive electrical stimulation of a discrete area of the brain via cortical or intracerebral electrodes. (2) Burst of rhythmic activity following a transient such as an evoked potential or a spike.
+
+Aliasing: Distortion of the EEG signal leading to misidentification of frequency, which occurs when the signal is sampled at less than twice the highest frequency present. The Nyquist theorem states that sampling rates should be at least twice the highest frequency, but accurate digitization of EEG signals requires even higher sampling rates. Comment: Distortion and aliasing can occur at the Nyquist theorem frequency (see Nyquist theorem, sampling rate).
+
+Alpha band: Frequency band of 8–13 Hz inclusive. Greek letter: α.
+
+Alpha rhythm: Rhythm at 8–13 Hz inclusive occurring during wakefulness over the posterior regions of the head, generally with maximum amplitudes over the occipital areas. Amplitude varies but is mostly below 50 µV in the adult, but often much higher in children. Best seen with the eyes closed, during physical relaxation and relative mental inactivity. Blocked or attenuated by attention, especially visual, and mental effort. Comment: use of term rhythm must be restricted to those rhythms that fulfill these criteria. Activities in the alpha band which differ from the alpha rhythm as regards their topography and/or reactivity, should either have specific appellations (for instance: the mu rhythm and alpha coma) or should be referred to as rhythms of alpha frequency or alpha activity. (See blocking, attenuation). Synonym: posterior dominant rhythm.
+
+Alpha variant rhythms: An EEG rhythm recorded most prominently over the posterior regions of the head that differs in frequency, but resembles in reactivity, the alpha rhythm. Comments: (1) often at a supra- or sub-harmonic of alpha frequency and may occur when no alpha rhythm is visible. (2) Not to be confused with posterior slow waves of youth. (See fast alpha variant rhythm, slow alpha variant rhythm, and posterior slow waves of youth).
+
+Alpha wave: Wave with duration of 1/8–1/13 s (77–125 ms).
+
+Amplitude, EEG: Is a measure of the change of EEG signals with respect to the mean value, usually measured in microvolts (µV), and often expressed as the difference between the maximum and minimum deviation (i.e. peak-to-peak), or in rectified EEG from baseline-to-peak. For a variable EEG activity or modulating sinusoidal rhythm a range can be provided. Comment: EEG amplitude depicts the difference in electrical potential between electrode pairs. Size of the output deflections are dependent upon the method of derivation (i.e. montage), inter-electrode distance, and may be distorted by intervening structures, particularly the skull. Synonym: in practice voltage is synonymous with EEG amplitude, and the visual size of waveforms can be manipulated by the display gain (see voltage and display gain).
+
+Amplitude-integrated EEG (aEEG): Involves customized display of EEG activity following signal processing which includes an asymmetric band-pass filter (2–15 Hz), logarithmic amplitude display, rectification, smoothing and time compression (such that several hours can be viewed on a screen). Widely used in neonatal intensive care unit monitoring, for example of infants suffering an hypoxic ischemic encephalopathy. Comment: concurrent review of conventional raw EEG traces is recommended. Synonym: cerebral function monitor (CFM).
+
+Analog-to-digital conversion (AD conversion): Transformation of a continuous, analog signal EEG into its digital representation (a discontinuous series of discrete amplitudes). AD conversion is characterized by the sampling rate, which is the number of times per second at which the signal is transformed into digits, and the amplitude resolution, the number of numerical values which can be distinguished within the dynamic range of the system (usually expressed as the number of binary digits). (See sampling rate).
+
+Anterior (slow) dysrhythmia: A normal EEG activity seen in term and near term infants at 32–44 weeks of post menstrual age; characterized by bilateral frontal delta waves (50–100 µV), seen in isolation or brief runs, typically synchronously and symmetrically.
+
+Application, electrode: The process of establishing fixation and electrical connection between an electrode and the subject’s scalp or brain.
+
+Arrhythmic activity: A sequence of EEG waves with an inconstant periodicity. (See rhythmic).
+
+Arousal: Change from a lower to a higher level of alertness as manifest in EEG activity.
+
+Array, electrode: A regular arrangement of electrodes over the scalp or brain, or within the brain substance. Synonym: electrode montage.
+
+Artifact: (1) A physiological potential difference due to an extracerebral source present in EEG recordings, such as eye blinks and movements, electrocardiogram (ECG) or muscle contractions (EMG). (2) A modification of the EEG caused by extracerebral factors, such as instrumental distortion or malfunction, movement of the patient, or ambient electrical noise.
+
+Asymmetry: Unequal amplitude, frequency or morphology of EEG activity in channels over homologous areas of the two hemispheres. To be considered abnormal in practice if the amplitude difference exceeds 50% or frequency difference is equal to or greater than 1 Hz in the posterior dominant rhythm, although it should be recognized that these are essentially arbitrary values. It can be quantified by quantitative EEG (qEEG) measures, such as the Brain Symmetry Index (BSI). (See quantitative EEG).
+
+Asynchrony: The non-coherent occurrence of EEG activities over regions on the same or opposite sides (hemispheres) of the head. For example, two similar waveforms occurring at separate electrodes or channels, but not simultaneously due to a time lag between the channels.
+
+Attenuation: Reduction in amplitude of EEG activity (for example, the alpha rhythm is usually attenuated or blocked on eye opening). May occur transiently in response to a physiological or other stimulus, such as electrical stimulation of the brain, or more permanently as a result of pathological conditions, such as cerebral atrophy or ischemia.
+
+Auditory evoked potential (AEP): Evoked potential in response to auditory stimulus (see evoked potential, brainstem auditory evoked potential).
+
+Augmentation: Increase in amplitude of EEG activity (for example the alpha rhythm is characteristically augmented upon closing the eyes).
+
+Average (potential) reference electrode: Use of term discouraged. Term suggested: common average reference. Synonym: Goldman-Offner reference (use of term also discouraged).
+
+Background activity: Any underlying EEG activity representing the setting in which focal or transient activity, either normal or abnormal, appears and from which such underlying pattern is distinguished. Comment: there may be no background activity and it is not a synonym of an individual rhythm, such as the alpha rhythm. Synonym: on-going activity.
+
+Background slowing: The frequency of the background rhythm which is below the normal value for age and state. Comment: not to be confused with slowing of the posterior dominant rhythm.
+
+Band: Range of EEG frequency in a spectrum for a given recording or epoch, i.e. delta, theta, alpha, beta, gamma bands and high frequency oscillations.
+
+Bandwidth: The stated range of frequencies (for example 1–70 Hz) between which the response of an EEG channel is within, determined largely by the filters (see frequency response).
+
+Basal electrode: Any electrode located in proximity to the base of the skull (see foramen ovale electrode, nasopharyngeal electrode, sphenoidal electrode).
+
+Baseline: (1) Strictly: line obtained when an identical voltage is applied to the two input terminals of an EEG amplifier or the “zero amplitude value” (assumed or perceived) in a given EEG trace or epoch. (2) Loosely: imaginary line corresponding to the approximate mean values of the EEG activity assessed visually in an EEG derivation over a period of time.
+
+Benign epileptiform discharges of childhood: Use of term discouraged. Terms suggested, depending on topographical location, occipital, centro-temporal or rolandic spikes (see rolandic spikes).
+
+Benign epileptiform transient of sleep (BETS): Use of term discouraged. A normal variant. Small sharp spikes of very short duration (<50 ms) and low amplitude (<50 µV), often followed by a small theta wave, occurring in the temporal regions during drowsiness and light sleep. Comment: this pattern is of no clinical significance and in spite of the name is in fact not epileptiform. Synonym: small sharp spikes (preferred term).
+
+Beta band: Frequency band of 14–30 Hz inclusive. Greek letter: β.
+
+Beta rhythm or activity: Any EEG rhythm between 14 and 30 Hz (wave duration 33–72 ms). Most characteristically recorded over the fronto-central regions of the head during wakefulness. Amplitude of fronto-central beta rhythm varies but is mostly below 30 µV. Blocking or attenuation of the beta rhythm by contralateral movement or tactile stimulation is especially obvious in electrocorticograms. Other beta rhythms are most prominent in other locations or are diffuse, and may be drug-induced (for example alcohol, barbiturates, benzodiazepines and intravenous anaesthetic agents).
+
+Bilateral: Involving both sides of the head (or body).
+
+Bilateral independent periodic discharges (BIPDs): BIPDs are 2 bilateral independent (i.e. asynchronous) surface-negative bi- or di-, tri- or poly-phasic complexes consisting of spike, sharp, or polyspike components, with variably following slow waves, lasting 60–600 ms (typically 200 ms) that occupy at least 50% of a standard 20 minute EEG. Amplitude ranges from 50 to 150 µV (occasionally up to 300 μV), which may be asymmetric, usually recurring at 0.5–2 c/s (but very occasionally with intervals of up to 10 s). BIPDs are broadly distributed and waveform morphology stays fairly constant for a given patient and EEG, with intervening background activity usually attenuated and slow. Most BIPDs are ephemeral phenomena that usually resolve within weeks. They occur with acute marked focal destructive lesions (for example cerebral infarcts, tumors or herpes simplex encephalitis) or more subacute/chronic pathologies (for example epilepsy and vascular compromise). Synonyms: bilateral independent periodic epileptiform discharges, cerebral bigeminy (use of terms discouraged). (See periodic discharges).
+
+Bilateral independent periodic lateralized epileptiform discharges (BIPLEDs): Use of term discouraged. See bilateral independent periodic discharges (preferred term).
+
+Bin width: Time, usually expressed in milliseconds (ms), elapsing between two successive sampling points in digital EEG (see digital EEG). Synonym: ordinate period.
+
+Biological calibration: See calibration and common EEG input test.
+
+Biphasic wave: Complex consisting of two wave components developed on alternate sides of the baseline. Synonym: diphasic wave.
+
+Bipolar derivation: (1) Recording from a pair of exploring electrodes. (2) Method of organizing the linkages of electrodes to recording channels. (See exploring electrode, bipolar montage, channel).
+
+Bipolar montage: Multiple bipolar channels, with no electrode being common to all channels. In most instances, bipolar channels are linked, i.e. adjacent channels from electrodes along the same line of electrodes, or chain, have one electrode in common; so the reference electrode (input terminal 2) in one channel becomes the exploring electrode (input terminal 1) in the next channel of the chain (see channel, reference and exploring electrode).
+
+Blocking: (1) Apparent, temporary obliteration or attenuation of EEG rhythms in response to physiological or other stimuli, such as eye opening on alpha rhythm, or a change in state (see attenuation). (2) A condition of temporary EEG amplifier saturation, caused when the output voltages of the amplifier exceed its operating range sensitivity (see clipping).
+
+Brainstem auditory evoked potential (BAEP): Far-field auditory evoked potentials generated largely in the brainstem in response to click stimulus and recorded from the surface as a result of volume conduction (see evoked potential, far-field potential, volume conduction).
+
+Breach rhythm: EEG activity recorded over or nearby a defect in the skull vault (for example after a fracture, burr hole or craniotomy), of increased amplitude when compared to homologous areas on the opposite side of the head (usually by a factor of less than 3). The rhythm is composed of fast activity with a spiky appearance along with alpha and/or mu rhythms, due to lack of attenuation and distortion by the skull. Comment: a physiological variant to be distinguished from epileptiform activity, although it may be associated with underlying brain injury and therefore a liability to focal seizures.
+
+Buffer amplifier: An amplifier, generally with a voltage gain of 1, a high input impedance, and a low output impedance, used to isolate the input signal from the loading effects of an immediately following circuit. In some electroencephalographs, each input is connected to a buffer amplifier located in the jack box to reduce cable artifact and interference.
+
+Build-up: Colloquialism. Used to describe progressive increase in voltage of EEG activity or the appearance of slow waves of increasing amplitude. For example during hyperventilation when often associated with decrease in frequency. Sometimes applied to seizure pattern (see seizure pattern).
+
+Burst: A group of waves with a minimum of four phases and duration longer than 500 ms which appear and disappear abruptly and are distinguished from background activity by differences in frequency, form and/or amplitude. Comments: (1) term does not imply abnormality. (2) Not a synonym of paroxysm (see paroxysm).
+
+Burst suppression: Pattern characterized by paroxysmal bursts of theta and/or delta waves, at times intermixed with sharp and faster waves, alternating with intervening periods of attenuation or suppression (below 10 µV) lasting more than 50% of the record. Comments: EEG pattern that indicates either severe brain dysfunction or is typical for some anesthetic drugs at certain levels of anesthesia. Comment: burst suppression pattern with identical bursts after anoxic brain injury has been reported to portend a poor neurological prognosis.
+
+Calibration: Historically, analogue procedure of testing and recording the responses of EEG channels to voltage differences applied to the input terminals of their respective amplifiers. DC (usually) or AC voltages of magnitude comparable to the amplitudes of EEG waves are used in this procedure. In the digital era, instrumental system calibration is either performed with an external signal generator or verified by an internal signal generator within the instrument, which is governed by the software of the system.
+
+Cap, head: A cap that is fitted over the head to hold electrodes in position. Synonym: electrode cap.
+
+Channel: Complete system for the detection, amplification and display of potential differences between a pair of electrodes, or a computed reference (for example common average reference). Digital EEG machines simulate a multichannel display by tracing several voltage time plots on a visual display.
+
+Circumferential bipolar montage: A montage consisting of linked bipolar derivations encircling the head. Commonly bilateral longitudinal temporal electrode chains are linked together.
+
+Clipping: Distortion of the recorded signal which makes it appear flat-topped in the display, caused by excess output voltage overloading the amplifiers (see blocking).
+
+Closely spaced electrodes: Additional scalp electrode placed at a shorter distance than that specified by the International ten-twenty system (for example see the ten-ten system).
+
+Common average reference: Computational average potential of all or most electrode signals used as a reference electrode. Synonyms: average (potential) reference and Goldman-Offner electrode (use of terms discouraged). (See reference electrode, Laplacian montage).
+
+Common EEG input test: Procedure in which the same pair of EEG electrodes is connected to the two input terminals of all channels of the electroencephalograph. Comment: used as adjunct to calibration procedure (see calibration). Synonym: biological calibration.
+
+Common mode rejection: A characteristic of differential amplifiers whereby they provide markedly reduced amplification of common mode signals, compared to differential signals. Expressed as common mode rejection ratio (CMRR), i.e. ratio of amplifications of differential and common mode signals.
+
+Common mode signal: Common component of the two signals applied to the two input terminals of a differential EEG amplifier. Comment: in EEG recording, external capacitive interference frequently occurs as a common mode signal.
+
+Common reference electrode: A reference electrode that is common to all channels.
+
+Common reference montage: A montage in which each of the channels have the same reference electrode (see channel, referential derivation, reference electrode).
+
+Complex: A sequence of two or more waveforms having a characteristic composite morphology; and when recurring are seen with a fairly consistent form, distinguished from background activity. (For example see spike-and-slow-wave complex).
+
+Contingent negative variation (CNV): An event-related slow negative potential elicited in the interval between a conditional stimulus and an associated contingent second ‘imperative’ stimulus, to which the subject is required to make a voluntary response. It comprises a progressive negative-going change maximal at the vertex, which requires special recording techniques so not seen in conventional EEG recording. Synonym: “expectancy wave”. (See event-related potential).
+
+Continuous EEG (cEEG): Prolonged EEG recording and often analysis for monitoring of electrical brain activity. Data may be collected with analog or digital systems, the latter enabling post-acquisition processing with a number of quantitative EEG techniques. cEEG is generally practiced in the intensive care unit with application varying according to the clinical situation: monitoring the EEG as a surrogate of cerebral metabolism (to detect hypoxia or ischemia), nonconvulsive seizures or status epilepticus, and to monitor the effects of treatment. The aim is to detect EEG changes when the cerebral dysfunction is reversible. There have been recommendations that cEEG is used to improve prognostication of coma after cardiac arrest. (See quantitative EEG).
+
+Continuous slow activity: Uninterrupted ongoing slow activity (theta and delta bands) which may be rhythmic, arrhythmic or polymorphic, which may wax and wane but not regress, and is of variable amplitude and morphology. Typically it is non-responsive to external stimuli and clearly exceeds the amount considered physiologically normal for the patient’s age. (See intermittent slow activity).
+
+Continuous spike and waves during sleep (CSWS): An epileptic encephalopathy syndrome of electrical status epilepticus during sleep (ESES) associated with neurocognitive dysfunction. Seizures are typically infrequent. Comment: often used interchangeably with electrical status epilepticus during sleep (ESES). Synonyms: encephalopathy with status epilepticus during slow sleep. (See slow wave sleep, electrical status epilepticus during sleep).
+
+Coronal bipolar montage: Synonym: see transverse bipolar montage.
+
+Cortical electrode: Electrode applied directly upon or inserted in to the cerebral cortex.
+
+Cortical electroencephalogram: See electrocorticogram.
+
+Cortical electroencephalography: See electrocorticography.
+
+Cycle: The complete sequence of recurrent almost sinusoidal oscillatory potential changes undergone by individual waveform components of regularly repeated EEG waves or complexes.
+
+Cycles per second (c/s): Unit of frequency defined as the number of complete cycles in one second. Synonym: hertz (Hz). (See frequency).
+
+Deep sleep: Non-REM sleep stage N3 is dominated (≥20%) by slow delta waves of frequency 0.5 to 2 Hz and peak-to-peak amplitude >75 µV, measured over the frontal regions. Synonym: slow wave sleep. (See light sleep).
+
+Delta band: Frequency band of 0.1–<4 Hz. Greek letter: δ. Comment: for practical purposes lower frequency limit is 0.5 Hz, as DC potential differences are not monitored in conventional EEGs.
+
+Delta brush: Normal neonatal graphoelement, seen at 26–40 weeks of post menstrual age (PMA), maximal around 32–34 weeks, and rare at term; combination of delta wave (0.3–1.5 c/s; 50–300 µV) with superimposed fast activity (>8 Hz; 10–60 µV). Localization changes with PMA. Synonyms: ripples of prematurity, spindle-delta bursts (use of terms discouraged). (See also extreme delta brush).
+
+Delta wave: Wave with duration of ¼-2 s (250–2000 ms).
+
+Depth electrode: Electrode (usually a multicontact electrode) implanted within the brain substance.
+
+Depth electroencephalogram: Recording of electrical activity of the brain by means of electrodes implanted within the brain substance, usually deep structures such as both hippocampi (see for example stereotactic [stereotaxic] depth electroencephalogram).
+
+Depth electroencephalography: Technique of recording intra-cranial depth electroencephalogram (see for example stereotactic [stereotaxic] depth electroencephalography).
+
+Derivation: (1) The process of recording from, or computing voltage differences between, a pair of electrodes in an EEG channel. (2) The EEG record obtained by this process.
+
+Desynchronization: Terms suggested: blocking or attenuation, depending on circumstance. The term desynchronization is acceptable when referring to the mechanisms presumably responsible for blocking or attenuation. It is also used in describing attenuation of a frequency band based on power spectra analysis of the EEG signal (for instance “event-related desynchronization”). (See blocking and attenuation).
+
+Diffuse: Colloquialism: an EEG activity spread over large areas of both sides of the head (see generalized). This does not imply abnormality as a normal rhythm may be diffusely distributed (for example alpha activity in some individuals, or slow waves in deep sleep). Comment: where possible the topographic distribution, symmetry and synchrony should be specified.
+
+Differential amplifier: An amplifier whose output is proportional to the voltage difference between its two input terminals. Comment: electroencephalographs make use of differential amplifiers in their input stages.
+
+Differential signal: Difference between two signals applied to the respective two input terminals of a differential EEG amplifier.
+
+Digital EEG: (1) The representation of an analog EEG signal by a series of numbers related to successive measurements of the magnitude of the signal at equal time intervals. (2) The practice of electroencephalography using digital representation of EEGs.
+
+Diphasic wave: Complex consisting of two wave components developed on alternate sides of the baseline. Synonym: Biphasic wave.
+
+Dipole: An EEG signal vector produced by a separation of negative (sink) and positive (source) potential poles (or current). A dipole is characterized by its strength, location and orientation. Depending on their orientation, dipoles can be radial (perpendicular to the surface), tangential (parallel to the surface) or a combination of these (oblique). Comment: an equivalent current dipole is a theoretical construct commonly used in source imaging to model a generator of an EEG signal located in the center of gravity of the source (for example an evoked potential, or an epileptiform discharge). Distributed source models are computed using a large number of small dipoles, distributed within the source space.
+
+Direct coupled amplifier: An amplifier in which successive stages are connected (coupled) by devices, the performance of which is not frequency dependent.
+
+Direct current (DC-) amplifier: An amplifier that is capable of recording DC (zero frequency) voltages and slowly varying voltages.
+
+Discharge: Waveforms with no more than 3 phases (i.e. crosses the baseline no more than twice) or any waveform lasting 0.5 s or less, regardless of the number of phases. Interpretive term of action potentials and post-synaptic potentials commonly used to designate interictal epileptiform and seizure patterns (see epileptiform pattern, seizure pattern).
+
+Disk electrode: Typically a metal disk attached to the scalp with an adhesive such as collodion or adherent conductive paste.
+
+Disorganization: Gross alteration in frequency, form, topography and/or quantity of physiologic EEG rhythms in: (1) an individual record, relative to previous records in the same subject or the rhythms of homologous regions on the opposite side of the head, or (2) relative to findings in normal subjects of similar age and similar state of vigilance. (See organization).
+
+Display Gain: Manipulation of the data after acquisition to change the visual size of waveforms in order to aid visual inspection. Comment: results of increase or decrease of the display gain are similar to changes of sensitivity during acquisition.
+
+Distortion: An instrument-induced alteration of waveform (see artifact, clipping).
+
+Duration: (1) The interval from beginning to end of an individual wave or complex. Comment: the duration of the cycle of individual components of a sequence of regularly repeating waves or complexes is referred to as the period of the wave or complex. (2) The time that a sequence of waves or complexes or any other distinguishable feature lasts in an EEG record.
+
+Electrical status epilepticus during sleep (ESES): an EEG pattern seen in childhood which consists of continuous or near continuous spike-and-slow-waves during sleep. Discharges may be seen in wakefulness, often with a frontal or temporal emphasis, but increase markedly in sleep and typically abate in REM sleep. Quantification of epileptiform activity is not standardized but some use spike-and-slow-wave index of >50% or >85%. Most children have or develop seizures and present with neurocognitive dysfunction. Comment: often used synonymously with continuous spike and waves during sleep (CSWS). (See index, slow wave sleep, continuous spike and waves during sleep).
+
+Electrocerebral inactivity: Absence over all regions of the head of identifiable electrical activity of cerebral origin, whether spontaneous or induced by physiological stimuli or pharmacological agents. Comment: strict technical recording standards should be observed in suspected cerebral death ( Stecker et al., 2016 ). Tracings of electrocerebral inactivity should be clearly distinguished from low voltage EEGs (see low voltage EEG). Synonyms: electrocerebral silence, flat or isoelectric EEG (use of terms discouraged).
+
+Electrocorticogram (ECoG): Record of EEG activity obtained by means of electrodes applied directly over or inserted in to the cerebral cortex. Comment: electrocorticograms can be performed intraoperatively and extraoperatively after surgical implantation (see subdural electrode).
+
+Electrocorticography (ECoG): Technique of recording electrical activity of the brain by means of electrodes applied over or implanted in to the cerebral cortex. Comment: electrocorticography can be performed intraoperatively and extraoperatively after surgical implantation (see subdural electrode).
+
+Electrode, EEG: A conducting device applied over or inserted in a region of the scalp or brain.
+
+Electrodecrement: A period of amplitude attenuation usually with superimposed fast activity.
+
+Electrode impedance: Total effective resistance to alternating current (AC), arising from ohmic resistance and reactance. Measured between pairs of electrodes or, in some electroencephalographs, between each individual electrode and all the other electrodes connected in parallel. Expressed in ohms (generally kilo-ohms, kΩ). Comments: (1) over the EEG frequency range, because the capacitance factor is small, electrode impedance is usually equal to electrode resistance. (2) Not a synonym of input impedance of EEG amplifier (see electrode resistance, input impedance).
+
+Electrode resistance: Total effective resistance to direct current (DC), through the interface between an EEG electrode and the scalp or brain. Measured between pairs of electrodes or, in some electroencephalographs, between each individual electrode and all the other electrodes connected in parallel. Expressed in ohms (generally kilo-ohms, kΩ). Comment: measurement of electrode resistance with DC currents results in varying degrees of electrode polarization (see electrode impedance).
+
+Electroencephalogram (EEG): Record of electrical activity of the brain taken by means of electrodes placed on the surface of the head, unless otherwise specified.
+
+Electroencephalograph (EEG): Instrument employed to record electroencephalograms.
+
+Electroencephalographic: Appertaining to bioelectrical recording, irrespective of the method employed (in the present context EEG, ECoG, SEEG, etc.).
+
+Electroencephalography (EEG): (1) The science relating to the electrical activity of the brain. (2) The practice of recording and interpreting electroencephalograms.
+
+Encoche frontale: Normal neonatal graphoelement in term and near term infants, between 34 and 44 weeks post menstrual age. Frontal broad diphasic sharp waves (50–100 µV); typically bilateral, but may be unilateral. Usually seen in transition from active to quiet sleep. Synonym: anterior sharp transient, transient frontal sharp wave. (See active and quiet sleep).
+
+Epicortical electrode: Use of term discouraged. Synonym: subdural electrode (preferred term).
+
+Epidural electrode: Electrode located over the dural covering of the cerebrum.
+
+Epileptiform pattern: Describes transients distinguishable from background activity with a characteristic morphology typically, but neither exclusively nor invariably, found in interictal EEGs of people with epilepsy. Epileptiform patterns have to fulfill at least 4 of the following 6 criteria:
+
+Epoch: EEG segment with a defined duration. Duration of epochs is determined arbitrarily but should be specified.
+
+Equipotential: Applies to regions of the head or electrodes that are at the same potential at a given instant in time. Synonyms: isopotential line, isopotential.
+
+Event-related potential (ERP): Refer to long latency responses (>70 ms) associated with an event, such as a deviant stimulus (as in mismatch negativity, P3 or P300), anticipation of a response (as in Bereitschaftspotential), or anticipation of a stimulus demanding a response (as in contingent negative variation). Applied mainly to slow (on account of their lower frequency content) ‘endogenous’ evoked potentials elicited by controlled manipulation of the psychological context. Thought to reflect some aspect of higher sensory processing, and therefore sometimes referred to as “cognitive potentials”, such as: attention, expectancy, novelty detection, stimulus salience, target recognition, task relevance, information delivery, decision making, stimulus evaluation time, template matching, memory, and closure of cognitive epoch. (See evoked potential, contingent negative variation, mismatch negativity, P3 or P300).
+
+Evoked magnetic field: Magnetic counterpart of EEG evoked potential. (See evoked potential, magnetoencephalography).
+
+Evoked potential (EP): Wave or complex elicited by and time-locked to a physiological or non-physiological stimulus or event, the timing of which can be reliably assessed. Comment: computer summation (averaging) techniques are especially suitable for detecting these and other event-related potentials from the surface of the head. See event-related potential.
+
+Exploring electrode: An electrode that registers electrical potentials from excitable tissue of the nervous system, historically connected to the input terminal 1 of an EEG amplifier, against a reference electrode, connected to the input terminal 2. Synonym: active electrode (use discouraged as all recording electrodes may be considered ‘active’, including any reference electrode). (See reference electrode).
+
+Extracerebral potential: Any potential that does not originate in the brain, generally referred to as an artifact in EEG. May arise from electrical interference external to the subject and recording system, the subject, the electrodes and their connections to the subject and the electroencephalograph, and the electroencephalograph itself (see artifact).
+
+Extreme delta brush: A particular pattern characterized by near continuous widespread rhythmic delta activity (1–3 c/s) with superimposed bursts of beta frequency activity (20–30 Hz) on top of each delta wave. Mostly symmetric and synchronous; do not vary with sleep-wake cycles or significantly with stimulation. The pattern has been described in autoimmune encephalitis associated with anti-N-Methyl D-Aspartate receptor antibodies. Named after a resemblance to the delta brush seen in preterm infants (see delta brush).
+
+Far-field potential: A potential generated in a deep neural structure and recorded by electrodes on the head at a distance from the generator, as a result of volume conduction and not mediated by neuronal activity. (See volume conduction, and for example brainstem auditory evoked potentials).
+
+Fast activity: Activity of frequency higher than the alpha band, i.e. beta and gamma activity, and high frequency oscillations.
+
+Fast alpha variant rhythm: A normal variant. Characteristic rhythm at 14–20 Hz, detected most prominently over the posterior regions of the head. May alternate or be intermixed with alpha rhythm, of which it is usually a harmonic frequency. Blocked or attenuated by attention, especially visual, and mental effort.
+
+Fast ripples: Part of the high frequency oscillation (HFO) bandwidth, usually defined as being in the range 250–1000 Hz (see high frequency oscillations).
+
+Fast wave: Wave with duration shorter than alpha waves, i.e. under 1/13 s.
+
+Focal: Limited to a small area of the brain in one hemisphere (see regional, multifocal). Focal epileptic seizures are conceptualized as originating within networks limited to one hemisphere, and usually associated with an initially localized epileptiform EEG pattern (see epileptiform pattern).
+
+Focus: A limited region of the scalp, cerebral cortex, or depth of the brain displaying a given EEG activity, either normal or abnormal.
+
+Foramen ovale electrode: A multicontact electrode bundle inserted through the foramen ovale to lie in proximity to the mesial temporal cortex. Comment: used for presurgical assessment of epilepsy of suspected mesial temporal lobe origin. (See basal electrode).
+
+Fourteen and 6-Hz positive burst or spikes: A normal variant. Burst of arch-shaped waves or spikes at 13–17 c/s and/or 5–7 c/s, but most commonly at 14 and/or 6 c/s, usually seen bilaterally over the posterior temporal and adjacent areas, typically during drowsiness and light sleep, with incidence peaking in adolescence. The sharp peaks of its component waves are positive with respect to other regions. Amplitude varies but is generally below 75 µV. Comments: (1) best demonstrated by referential recording using contralateral earlobe or common average reference electrodes. (2) This pattern has been termed “pseudo-epileptiform” (i.e. not associated with a liability to epileptic seizures). Synonym: ctenoids (use of term discouraged).
+
+Frequency: Number of complete cycles of repetitive waves or complexes in 1 s. Measured in cycles per second (c/s) or Hertz (Hz). Comment: the term Hz seems appropriate when applied to sinusoidal waves such as alpha activity, but seems inappropriate when applied to complex waveforms such as spike-and-slow-waves, which may be more correctly quantified by c/s. This principle has been applied throughout this glossary.
+
+Frequency response: Characteristics of an amplifier showing the relative response to the activities of different frequencies with respect to the response of 10 Hz activity. The bandwidth of EEG channels is determined by the low and high frequency filters and the particular frequency response characteristics of the recording system.
+
+Frequency response curve: A graph depicting the relationships between output trace detection or amplifier output and input frequency, for a particular setting of low and high frequency filters.
+
+Frequency spectrum: The distribution of amplitude and phases of different frequency components against frequency. This is typically demonstrated by a Fourier transform of the EEG. Comment: In most applications the amplitude spectrum is presented only (for example in delta, theta, alpha, beta, gamma bands), and not phase information. (See power spectrum, quantitative EEG).
+
+Frontal intermittent rhythmic delta activity (FIRDA: ): Fairly regular, approximately sinusoidal or sawtooth waves, mostly occurring in bursts at 1.5–2.5 Hz synchronously over the frontal areas of both sides of the head (occasionally unilateral). Comment: most commonly associated with mild to moderate unspecified encephalopathy in responsive ambulant patients, often in association with cerebrovascular disease. Synonym: occasional frontally predominant brief 2/s GRDA.
+
+Fronto-central theta: A normal variant. Theta rhythm located in the midline, just anterior to the vertex, that occurs during psychological stress and cognitive tasks, particularly problem solving. It appears predominantly in young healthy adults (<30 years of age). The pattern is considered to be a normal response to cognitive tasks. Synonyms: frontal midline theta, Ciganek rhythm.
+
+Gain, voltage: The ratio of output signal voltage, V o , to input signal voltage, V i , of an EEG channel. For example:
+
+Gamma band: Frequency band from >30 to 80 Hz. Greek letter: γ. Comment: The graphic resolution of computer displays may limit the visual appreciation of higher frequencies. However, this does not justify limiting unduly the high frequency response of the EEG channels; for EEG waves include transients such as spikes and sharp waves with components at frequencies above 50 Hz.
+
+Gamma rhythm or activity: An EEG rhythm above >30–80 Hz (wave duration 12.5–33 ms). Comment: most commonly recorded with intracranial electrodes from actively engaged or driven neural networks.
+
+Generalization: Bilateral propagation of EEG activity from limited areas to all regions of the head (see generalized).
+
+Generalized: Loosely: an EEG activity spread over all regions of the head, usually with a frontal, but rarely with an occipital, maximum (see diffuse). Strictly: bilateral EEG discharges appearing reasonably symmetrically and synchronously over homologous regions of the head (see symmetric and synchronous). For example generalized epileptic seizures are conceptualized as originating at some point within, and rapidly engaging (i.e. synchronizing), bilaterally distributed networks. Comment: “generalized” is still used as a term for describing seizure types and epilepsy syndromes, although no seizure pattern involves the whole brain simultaneously (see secondary bilateral synchrony).
+
+Generalized paroxysmal fast activity (GPFA): Bilateral synchronous bursts of spikes of 2–10 s duration, with frequency between 10 and 25 Hz (typically around 10 Hz) and maximum in the frontal regions that only occurs during sleep. GPFA is considered a feature of Lennox-Gastaut syndrome. Comment: when the bursts are longer than 5 s a tonic seizure is often recorded (this may be discrete, and only detected with surface EMG electrodes). Synonyms: bursts of fast rhythms, fast paroxysmal rhythms, runs of rapid spikes (use of terms discouraged).
+
+Generalized periodic discharges (GPDs): GPDs are generalized, synchronous, periodic or quasi-periodic complexes that occupy at least 50% of the record. They are high amplitude (typically >100 µV) and have duration of about 0.5 s, with an intervening background activity amplitude usually not more than 35 µV. The morphology of GPDs is variable and consists of sharp or spike and slow wave complexes, triphasic-like waves, and slow wave complexes. Repetition rate usually lies between 0.5 and 2.0 c/s. They occur most commonly in coma, usually after severe cerebral anoxia following cardiac arrest, in Creutzfeldt-Jacob disease, and with toxicity (for example baclofen or lithium). With anoxic insults, the periodicity typically ranges from 1.5 to 3.5 c/s. Most patients have a poor neurological prognosis or die, although not invariably. Synonym: generalized periodic epileptiform discharges (use of term discouraged). (See periodic discharges).
+
+Generalized periodic epileptiform discharges (GPEDs): Use of term discouraged. See generalized periodic discharges (preferred term).
+
+Graphoelement: Any EEG pattern (transient, potential or rhythm) that is distinguished from the ongoing background activity, which may be physiological or pathological. It is characterized by its name, morphology, location, duration, frequency (when rhythmic), mode of appearance and the relationship to activating or modulating factors (for example hypnagogic hypersynchrony).
+
+Ground connection: Conducting path between the subject, the electroencephalograph and earth.
+
+Ground projection: Projection of an artifact, such as blink artifact, recorded from a ground electrode into an exploring electrode whose impedance is high.
+
+Harness, head: A combination of straps fitted over the head to hold pad electrodes in position. Commercial EEG recording electrodes caps are an alternative.
+
+Hertz (Hz): Unit of frequency. Synonym: cycles per second (c/s).
+
+High frequency filter (or low pass filter: ): A circuit that reduces the sensitivity of the EEG signals to relatively high frequencies (for example above 70 Hz). For each setting of the high frequency filter, this attenuation is expressed as percent reduction in signal amplitude at a given frequency, relative to frequencies unaffected by the filter, i.e. in the mid-frequency band of the signal. Synonym: low pass filter. Comment: at present high frequency filter designations and their significance are not yet standardized for all instruments of different manufactures. For instance, for a given instrument, a position of the high frequency filter control designated as 70 Hz may indicate a 30% (3 dB), or other stated percent, reduction in sensitivity at 70 Hz, compared to the sensitivity, for example, at 10 Hz.
+
+High frequency oscillations (HFOs): Transient bursts of EEG activity, spontaneous or evoked, with frequencies beyond 80 Hz. Divided into ripples (80–250 Hz) and fast ripples (250–500 Hz). (See ripples and fast ripples).
+
+High frequency response: Sensitivity of an EEG channel to relatively high frequencies. Determined by the high frequency response of the amplifier and the high frequency filter used. Expressed as percent reduction in output trace deflection at certain specific high frequencies, relative to other frequencies in the mid-frequency band of the channel.
+
+High pass filter: Synonym: low frequency filter.
+
+Hypersynchrony: When describing EEG patterns that are attributed to increased synchronization of neuronal activity (for example hypnagogic hypersynchrony).
+
+Hyperventilation: Deep and regular respiration performed for a period of several minutes. Used as an activation procedure. Synonym: overbreathing (see activation).
+
+Hypnagogic hypersynchrony: A normal variant. Paroxysmal bursts of 3–5 c/s, high amplitude (75–350 µV) diffuse, but maximal fronto-central, sinusoidal activity occurring at the onset of sleep in normal infants and children, aged 3 months to 13 years (but typically 4–9 years).
+
+Hypsarrhythmia: Characteristic interictal EEG pattern typically, but not invariably, seen in infants with Infantile Spasms (West syndrome). Consists of diffuse very high amplitude (>300 µV) irregular slow waves interspersed with multiregional spikes and sharp waves over both hemispheres, usually with a highly disorganized and asynchronous appearance. It is most frequent during Non-REM sleep, followed by waking and arousal, and is absent or minimal during REM sleep. Variations include asymmetry, predominant single focus (within widespread abnormalities), episodes of attenuation or fragmentation, increased periodicity and preservation of interhemispheric synchrony (all termed ‘modified hypsarrhythmia’). Comment: the ictal pattern of spasms usually consists of one or more of following: diffuse high amplitude slow wave, low to medium amplitude fast activity, or electrodecrement (see low amplitude fast activity, electrodecrement).
+
+Ictal EEG pattern: See seizure pattern, EEG.
+
+Impedance meter: An instrument used to measure impedance (see electrode impedance).
+
+Inactivity, record of electrocerebral: See electrocerebral inactivity.
+
+Incidence: Descriptor used to characterize how often a transient or isolated discharge is seen throughout the recording. Suggested ranges for describing this: ≥1/10 s are abundant, ≥1/min but less than 1/10 s are frequent, ≥1/h but less than 1/minute are occasional, and <1/h are rare. Comment: the equivalent descriptor for rhythmic EEG patterns is prevalence. Synonym: quantity. (See prevalence).
+
+Independent (temporally): Not dependent on some other EEG activity. Synonym: asynchronous.
+
+Index: Percent of time an EEG activity is present in an EEG sample. For example: alpha index, spike wave index, daily pattern index.
+
+Infraslow activity: EEG activity with frequencies in the EEG below 0.1 Hz. Synonym: subdelta activity.
+
+In-phase signals: Waves with no phase difference between them (see common mode signal – not a synonym).
+
+Input: The signal fed into an EEG amplifier (see input terminal 1; input terminal 2).
+
+Input circuit: System consisting of the EEG electrodes and intervening tissues, the electrode leads, jack box, input cable, and electrode selectors.
+
+Input impedance: Impedance that exists between the two inputs of an EEG amplifier. Measured in ohms (generally mega-ohms, MΩ) with or without the additional specification of input shunt capacitance (measured in picofarads, pF). Comment: not a synonym of electrode impedance.
+
+Input terminal 1: The input terminal of the differential EEG amplifier at which negativity, relative to the other input terminal, produces an upward trace deflection (see polarity convention). Synonyms: “grid 1” (G1), black lead (use of terms discouraged). Comment: customarily the connection of an electrode to the input terminal 1 of the EEG amplifier is represented in diagrams as a solid line.
+
+Input terminal 2: The input terminal of the differential EEG amplifier at which negativity, relative to the other input terminal, produces a downward trace deflection (see polarity convention). Synonyms: “grid 2” (G2), white lead (use of terms discouraged). Comment: the connection of an electrode to the input terminal 2 of the EEG amplifier is represented in diagrams as a dotted or dashed line.
+
+Input voltage: Potential difference between the two input terminals of a differential EEG amplifier (see differential amplifier).
+
+Inter-electrode distance: Spacing between pairs of electrodes. Comment: distances between adjacent electrodes placed according to the standard 10–20 system or more closely spaced electrodes are frequently referred to as short or small inter-electrode distances (i.e. 10–10 system). Larger distances (such as double) between standard electrode placements are often termed widely spaced, long or large inter-electrode distances.
+
+Interhemispheric derivation: Recording between a pair of electrodes located on opposite sides of the head (for example F3-F4).
+
+Intermittent photic stimulation: Delivery of intermittent flashes of light to the eyes of a subject. Used as EEG activation procedure. Synonym: photic stimulation (PS).
+
+Intermittent slow activity: Slow EEG activity that occurs intermittently and is not caused by drowsiness (usually >100 µV). Intermittent slow activity varies by more than 50% or regresses completely between times of its appearance, and can be polymorphic, arrhythmic or rhythmical (see continuous slow activity).
+
+Intracerebral depth electroencephalogram: See: depth electroencephalogram.
+
+Intracerebral electrode: Various conducting devices for recording EEG from the surface or within the substance of the brain. Examples include epicortical/subdural, epidural, foramen ovale, and stereotactic [stereotaxic] implanted depth electrodes. Synonym: depth electrode.
+
+Irregular: Applies to EEG waves and complexes of inconstant period and/or uneven contour or morphology.
+
+Isoelectric: (1) The record obtained from a pair of equipotential electrodes (see equipotential). (2) Use of term discouraged when describing record of electrocerebral inactivity (see electrocerebral inactivity).
+
+Isolated: Occurring singly.
+
+Isopotential: See synonym equipotential.
+
+K complex: A normal graphoelement. A well delineated negative sharp wave followed by a positive component standing out from the background EEG, with total duration ≥0.5 s, usually maximal in amplitude when recorded from fronto-central derivations and often associated with a sleep spindle. (See vertex sharp transient or vertex sharp wave).
+
+Lambda wave: A normal graphoelement. Diphasic sharp transient occurring over the occipital regions of the head of awake subjects during visual exploration. The main component is positive relative to other areas. Time-locked to saccadic eye movements. Amplitude varies but is generally below 50 µV. Greek letter: λ (note morphology resembling the Greek capital letter lambda).
+
+Laplacian montage: Montage that consists of a mathematical transformation involving the second spatial derivative; the Laplacian source of the potential may be approximated by using the weighted average of all the neighbouring electrodes as a reference for each site or electrode. This montage may be used for localization of focal abnormalities on digital EEG (see common average reference).
+
+Lateralized: Independently involving the right and/or left side of the head (or body) (see unilateral).
+
+Lateralized periodic discharges (LPDs): LPDs are unilateral surface negative discharges of spike, sharp or sharp slow-wave polyphasic morphology, usually lasting from 100 to 300 ms that typically recur at quasiperiodic intervals of up to 3/s. The incidence of clinical or electrographic seizures associated with LPDs is high, ranging from 50 to 100%, but there is debate as to whether they represent seizures proper. When contralateral motor movements are time-locked to LPDs they are considered to represent seizure patterns. Most LPDs are ephemeral phenomena occurring with both acute focal destructive lesions (for example cerebral infarcts, tumors or herpes simplex encephalitis) and more subacute/chronic pathologies (for example epilepsy and vascular compromise). Synonym: periodic lateralised epileptiform discharges (use of term discouraged). (See discharge, periodic discharges).
+
+Lead: Strictly: wire connecting an electrode to the electroencephalograph. Loosely: synonym of electrode, its wire and connector.
+
+Light sleep: Non-REM (NREM) sleep stages N1 and N2, which are characterized by sinusoidal eye movements, low amplitude mixed frequency EEG activity, vertex sharp waves, K complexes and sleep spindles. (See deep sleep).
+
+Linkage: The connection of a pair of electrodes to the two respective input terminals of a differential EEG amplifier (see derivation).
+
+Longitudinal bipolar montage: A montage consisting of contiguous channels of electrode pairs along longitudinal, mainly antero-posterior, arrays (for example, Fp1-F3, F3-C3, C3-P3, P3-O1 etc). Synonym: “double-banana” montage.
+
+Low frequency filter (high pass filter): A circuit that reduces the sensitivity of the EEG signal to relatively low frequencies (for example below 0.5 Hz). For each position of the low frequency filter control, this attenuation is expressed as percent reduction of the signal at a given stated frequency, relative to frequencies unaffected by the filter, i.e. in the mid-frequency band of the channel. Comment: at present low frequency filter designations and their significance are not yet standardized for instruments of different manufacturers. For instance, in a given instrument a low frequency filter setting designated 1 Hz may indicate a 30% (3 dB), or other stated percent, reduction in sensitivity at 1 Hz, compared to the sensitivity for example at 10 Hz. The same position of the low frequency filter setting may also be designated by the time constant. Synonym: high pass filter.
+
+Low frequency response: Sensitivity of an EEG channel to relatively low frequencies. Determined by the low frequency response of the amplifier and by the low frequency filter (time constant) used. Expressed as percent reduction in output trace deflection at certain stated low frequencies, relative to other frequencies in the mid-frequency band of the channel (see low frequency filter, time constant).
+
+Low pass filter: Synonym: high frequency filter.
+
+Low voltage EEG: A normal variant. Waking record characterized by activity of amplitude not greater than 20 µV over all head regions. With appropriate instrumental sensitivities this activity can be shown to be composed primarily of beta, theta and, to a lesser degree, delta waves, with or without alpha activity over the posterior areas. Comments: (1) low voltage EEGs are susceptible to change under the influence of certain physiological stimuli, sleep, pharmacological agents and pathological processes. (2) They should be clearly distinguished from tracings of electrocerebral inactivity, suppression and low voltage fast activity (see electrocerebral inactivity, suppression and low voltage fast activity).
+
+Low voltage fast activity: Refers to fast activity (beta rhythm and above), often recruiting, which can be recorded at the onset of an ictal discharge, particularly in intra-cranial depth EEG recording of a seizure.
+
+Magnetoencephalography (MEG): Recording of magnetic fields generated from the cortical neurons.
+
+Map, voltage: Topographical display of the voltage distribution on the scalp, using equipotential lines and color-codes to express the steps of gradient changes between the peak negativity and the peak positivity. The voltage difference between peak negativity and peak positivity is 100%, and the fall-off of the potential is shown in arbitrary steps of, for example, 10% of the maximum amplitude. Usually blue color symbolizes negativity, and red color positivity. Inspecting voltage maps allows estimation of the location and orientation of the source. Comment: it is recommended to calculate voltage maps using common average reference (that include all electrodes on the scalp and preferably the inferior temporal electrode chain too). (See Quantitative EEG). Synonyms: diagram of equipotential lines, isopotential map or amplitude map.
+
+Mismatch negativity (MMN): Is an automatic (i.e. attention independent) event-related response to physically deviant auditory stimuli occurring among frequent (standard) stimuli (e.g. tones or phonetic stimuli). MMN is a surface negative potential with an onset latency of about 130 ms and lasting 250–300 ms, with maximal amplitude over the fronto-central region. (See event-related potential).
+
+Monorhythmic delta activity: A normal graphoelement in preterm infants (24–34 weeks of post menstrual age). Characterized by relatively stereotyped delta activity (up to 200 µV) predominantly over the posterior regions (occipital, temporal and central).
+
+Montage: The arrangement or array of channels on the EEG machine display, defined by the exploring and reference electrodes (for example see bipolar and referential montages).
+
+Morphology: Refers to the form of EEG waves (i.e. their shape and physical characteristics).
+
+Motor evoked potential (MEP): Evoked potential recorded from muscle following direct stimulation of the exposed motor cortex, or transcranial stimulation of the motor cortex, either magnetically or electrically.
+
+Mu rhythm: Rhythm at 7–11 Hz, composed of arch-shaped waves occurring over the central or centro-parietal regions of the scalp during wakefulness. Amplitude varies but is mostly below 50 µV. Blocked or attenuated most clearly by contralateral movement, thought of movement, readiness to move or tactile stimulation. Greek letter: μ. Synonyms: rhythm rolandique en arceau, comb rhythm (use of terms discouraged).
+
+Multifocal: Three or more spatially separated independent foci (see focal).
+
+Multiple spike-and-slow-wave complex: Use of term discouraged. An epileptiform graphoelement consisting of two or more spikes associated with one or more slow waves (see epileptiform pattern). Synonym: polyspike and-slow-wave complex (preferred term).
+
+Multiple spike complex: Use of term discouraged. A sequence of two or more spikes. Synonym: polyspike complex (preferred term).
+
+Multiregional: Three or more lobar foci (see regional).
+
+Nasopharyngeal electrode: Rod electrode introduced through the nose and placed against the nasopharyngeal wall with its tip lying near the body of the sphenoid bone. (See basal electrode).
+
+Needle electrode: Small needle inserted into the subdermal layer of the scalp.
+
+Noise, EEG channel: Small fluctuating output of an EEG channel recorded when high sensitivities are used, even if there is no input signal. Measured in microvolts (µV), referenced to the input.
+
+Non-cephalic reference: Reference electrode that is placed on body parts other than the head (for example sternospinal reference).
+
+Non-REM sleep (NREM): Term summarizing all sleep stages except REM sleep (see REM sleep).
+
+Notch filter: A filter that selectively attenuates a very narrow frequency band, thus producing a sharp notch in the frequency response of an EEG signal. Commonly applied to attenuate electrical noise from mains interference (the frequency of which differs between countries, 50 or 60 Hz), which may occur under unfavorable technical conditions.
+
+Nyquist theorem: Accurate digital representation of an EEG signal requires that the sampling rate is at least twice the highest frequency of the signal, i.e. a frequency component of 30 Hz requires at least a sampling rate of 60 Hz. Comment: sampling at twice the Nyquist frequency only ensures an accurate representation of frequency content. Tolerable reproduction of waveforms requires at least a sampling rate 5 times above the fastest frequency components present.
+
+Occipital intermittent rhythmic delta activity (OIRDA): Fairly regular or approximately sinusoidal waves, mostly occurring in bursts at 2–3 Hz over the occipital areas of one or both sides of the head. Frequently blocked or attenuated by eye opening. An abnormal pattern seen in children’s EEGs more frequently than adults, often but not exclusively in association with genetic generalized epilepsies.
+
+Ohmmeter: An instrument used to measure resistance (see electrode resistance).
+
+Ordinate period: Time in milliseconds (ms) elapsing between two successive sampling points in digital EEG. (See bin width).
+
+Organization: Degree to which the posterior dominant rhythm (PDR) conforms to certain characteristics displayed by a majority of subjects in the same age group, without personal or family history of neurologic and psychiatric diseases, or other illnesses that might be associated with dysfunction of the brain. Comments: the organization of PDR progresses from birth to adulthood.
+
+Out-of-phase signals: Two waves of opposite phases (see differential signal; phase reversal - not a synonym).
+
+Output voltage: The voltage across the trace display of an EEG channel.
+
+Overbreathing: Synonym: hyperventilation.
+
+Overload: Condition caused by applying voltage differences which are larger than the channel is designed for or set to handle by the input terminals of an EEG amplifier. Displays clipping of EEG waves and/or blocking of the amplifier depending on its magnitude (see clipping, blocking).
+
+P3 or P300: Is an event-related potential response usually elicited using the oddball paradigm, in which low-probability target stimuli are mixed with high-probability non-target (or standard) stimuli. P3 is a surface positive potential with an onset latency of about 250 to 500 ms and maximal amplitude over the centro-parietal region, with two subcomponents denoted P3a and P3b. Synonym: late positive component (LPC). (See event-related potential).
+
+Pad electrode: Metal electrode covered with a cotton or felt and gauze pad, held in position by a head cap or harness.
+
+Paper speed: Velocity of movement of paper through an analogue EEG machine. Expressed in centimeters per second (cm/s) or millimeters per second (mm/s). Synonym: time base (in digital EEG).
+
+Paroxysm: Graphoelement phenomenon with sudden onset, rapid attainment of a maximum, and abrupt termination; distinguished from background activity. Comment: commonly used to refer to epileptiform and seizure patterns (see epileptiform pattern and seizure pattern).
+
+Paroxysmal fast: Fast frequencies in the beta range or above occurring in trains (see paroxysm, low voltage fast activity).
+
+Pattern: Any characteristic regular or repetitive EEG activity of approximately constant period (see regular and rhythmic).
+
+Peak: Point of maximum amplitude of a wave.
+
+Period: Duration of complete cycle of individual graphoelement in a sequence of regularly repeated EEG waves or complexes. Comment: the period of the graphoelement of an EEG rhythm is the reciprocal of the frequency of the rhythm. (For example, the duration of a spike-and-slow-wave complex in 3 c/s spike-and-slow-waves is 1/3 = 0.333).
+
+Periodic: Applies to: (1) EEG waves or complexes occurring in a sequence at an approximately regular rate, (2) EEG waves or complexes occurring intermittently at approximately regular intervals, generally of one to several seconds. (See periodic discharges).
+
+Periodic discharges (PDs): Repetition of a waveform with relatively uniform morphology and duration, with a quantifiable inter-discharge interval between consecutive waveforms, and recurrence of the waveform at nearly regular intervals. Comments: PDs may be generalized (GPDs), lateralized (LPDs), bilateral independent (BIPDs). Old nomenclature for these new terms are GPEDs (=GPDs), PLEDs (=LPDs) and BIPLEDs (=BIPDs). The use of “epileptiform” as an interpretative term is now avoided, since these periodic patterns may or may not be associated with clinical seizures ( Hirsch et al., 2013 ).
+
+Periodic lateralized epileptiform discharges (PLEDs): Use of term discouraged. See lateralized periodic discharges (preferred term).
+
+Phase: (1) Time or polarity relationships between a point on a wave displayed in a derivation and the identical point on the same wave recorded simultaneously in another derivation. (2) Time or angular relationships between a point on a wave and the onset of the cycle of the same wave. Usually expressed in degrees or radians.
+
+Phase reversal: Simultaneous trace deflections in opposite directions from two or more channels in a bipolar recording montage. Assuming a single generator, phase reversal is due to the same signal being applied to the input terminal 2 of one differential amplifier and to the input terminal 1 of the other amplifier. Comment: When observed in two linked bipolar channels, phase reversal indicates that the potential field is maximal or minimal at or near the electrode common to such derivations. A phase reversal seen in a referential recording, when assessed using mapping of the potential fields, indicates that the dipole source is horizontally located in the sulcal wall across the borderline of the two fields of opposite polarity. (See bipolar and referential montages, dipole, input terminal).
+
+Photic driving: Physiologic response consisting of periodic activity elicited over the posterior regions of the head, usually induced by repetitive photic stimulation at frequencies of about 1–30 Hz. Comments: (1) term should be limited to activity time-locked to the stimulus and of frequency identical or harmonically related to the stimulus frequency. (2) Photic driving should be distinguished from the visual evoked potentials elicited by isolated flashes of light or flashes repeated at low frequencies (<5 Hz). (See photic stimulation).
+
+Photic evoked potential (PEP: ): Evoked potential generated in the occipital cortex in response to flash stimulation. Synonym: Flash EP.
+
+Photic stimulation: Delivery of intermittent flashes of light to the eyes of a subject, usually from 1 to 60 Hz. Used as EEG activation procedure. Synonym: intermittent photic stimulation (IPS).
+
+Photic stimulator: Device for delivering intermittent flashes of light.
+
+Photomyogenic response: A non-cerebral response to intermittent photic stimulation characterized by the appearance in the record of brief repetitive muscle spikes (electromyography artifact) over the anterior regions of the head. These often increase gradually in amplitude as stimuli are continued and cease promptly when the stimulus is withdrawn. Comments: (1) this response is frequently associated with flutter of the eyelids and vertical oscillations of the eyeballs and sometimes with discrete jerking mostly involving the musculature of the face and head, (2) it is a physiological artifact contaminating the EEG.
+
+Photoparoxysmal response (PPR): Abnormal response to intermittent photic stimulation characterized by spike-and-slow-wave or polyspike-and-slow-wave complexes. Responses are subclassified in to 4 phenotypically different types, from focal occipital spikes (type 1 PPR) time-locked to the flashes to generalized (type 4 PPR) epileptiform discharges, which may outlast the stimulus by a few seconds. Comment: only the more generalized spike-and-wave responses (type 3 and 4 PPRs) show a strong association with epilepsy.
+
+Polarity convention: International agreement whereby differential EEG amplifiers are constructed so that negativity at input terminal 1 relative to input terminal 2 of the same amplifier results in an upward trace deflection. For example, for a bipolar derivation C3-Cz (input 1 terminal -input terminal 2), an ‘upward deflection’ implies that C3 is more negative than Cz, while a ‘downward deflection’ implies that Cz is more negative than C3. Comment: this convention is contrary to that prevailing in some other biological and non-biological fields. (See input terminal 1 and 2).
+
+Polarity, EEG wave: Sign of potential difference, either positive or negative, existing at a given time between one electrode and another electrode (see polarity convention); which may be an exploring and reference electrode in a referential derivation, or two exploring electrodes in a bipolar derivation.
+
+Polygraphic recording: Simultaneous monitoring of multiple physiological parameters such as the EEG, respiration, electrocardiogram, electromyogram, eye movements (electrooculogram), oxygen saturation, and leg movements, etc. Comment: some may be part of routine EEG recording but are recommended in polysomnography. (See polysomnography).
+
+Polymorphic activity: Irregular EEG waves having multiple forms, which may also vary in frequency and amplitude. Synonym: irregular.
+
+Polyphasic wave: Wave consisting of more than two phases developed on alternating sides of the baseline (for example see triphasic wave).
+
+Polysomnography (PSG: ): Polygraphic recording of sleep including EEG, electrooculogram, electromyogram (chin and leg), airflow parameters and oxygen saturation, along with video. A test used to diagnose sleep disorders. Synonym: sleep studies.
+
+Polyspike-and-slow-wave complex: An epileptiform pattern consisting of two or more spikes associated with one or more slow waves (see epileptiform pattern). Synonym: multiple spike-and-slow-wave complex (use of term discouraged).
+
+Polyspike complex: A sequence of two or more spikes. Comment: may or may not be an epileptiform pattern (for examples see generalized paroxysmal fast activity and wicket spikes, respectively). Synonym: multiple spike complex (use of term discouraged).
+
+Positive occipital sharp transient of sleep (POSTS): A normal graphoelement. Sharp transient maximal over the occipital regions, positive relative to other areas, apparently occurring spontaneously during sleep. May be single or repetitive. Amplitude varies but is generally below 50 µV.
+
+Positive rolandic sharp waves (PRSW): Abnormal transients in neonatal period, surface positive, broad-based sharp waves with duration of <0.5 s, localized to central regions (C3/C4/Cz). Associated with white matter injury in preterm infants. Synonym: positive sharp wave transients.
+
+Posterior basic rhythm (PBR): Synonym: posterior dominant rhythm.
+
+Posterior dominant rhythm (PDR): Rhythmic activity seen at the occipital or parietal regions predominantly during wakefulness while the eyes are kept closed. Comment: usually in the alpha frequency band in healthy adults. Synonym: posterior basic rhythm.
+
+Posterior slow waves of youth: A normal graphoelement. Isolated slow waves intermixed with the posterior dominant rhythm in young people (typically 4–25 years of age). See slow-fused transients.
+
+Potential: (1) Strictly: voltage. (2) Loosely: synonym of electrical activity (waveforms) generated by the nervous system.
+
+Potential field: Amplitude distribution of the negative and positive potentials of an EEG signal at the surface of the head, or cerebral cortex or in the depth of the brain, measured at a given instant in time. Represented in diagrams by color codes for negativity and positivity, and by equipotential lines (see map isopotential, power spectrum).
+
+Power Spectrum: Display of the distribution of frequency-specific power (i.e. amplitude squared), with the waveform frequency plotted on the abscissa and the power plotted on the ordinate of a spectrogram display. (See frequency spectrum, quantitative EEG).
+
+Premature temporal theta: Normal graphoelement of preterm infants (24–34 weeks post menstrual age, highest incidence 29–31 weeks). Temporal sharp transients occurring in bursts of rhythmic sharp waves at 4–7 c/s (25–125 µV). Typically bilateral but often asynchronous. Synonyms: rhythmic temporal theta, temporal sawtooth waves.
+
+Prevalence: Proportion of the record or a specified epoch that includes a particular EEG pattern. For example: ≥90% is continuous, 50–89% is abundant, 10–49% is frequent, 1–9% is occasional, and <1% is rare. Comment: the equivalent descriptor for transients or isolated discharges is incidence or quantity. (See incidence, quantity).
+
+Propagation: The active neural process whereby electric activity spreads from one area of the brain to another. For example, propagation from a focus to the contralateral, homologous brain region, which then leads to bilateral synchronous discharges, is called secondary bilateral synchrony or secondary generalization. (See secondary bilateral synchrony, volume conduction).
+
+Psychomotor variant: Use of term discouraged. Synonym: rhythmic temporal theta burst of drowsiness.
+
+Quantitative EEG (qEEG): Processing and analysis of portions of digitized EEG data, such as frequency specific power typically derived by Fourier transform, displayed in various formats. Statistical variables can be compared, such as wave phase and coherence. Clinically it is most used in the intensive care unit to evaluate cerebral function trends and following treatment interventions. (See map voltage, power spectrum, continuous EEG).
+
+Quantity: Amount of EEG activity with respect to number of transients or waves. For example, interictal epileptiform discharges: ≥1/10 s are abundant, ≥1/min but less than 1/10 s are frequent, ≥1/h but less than 1/min are occasional, and <1/h are rare. Synonym: incidence. (See also prevalence).
+
+Quasiperiodic: Loosely: applies to EEG waves or complexes that occur at random intervals, which only approach regularity and that are not an exact repeating frequency. Strictly: determined by quantitative computer analysis and defined as having a cycle length (i.e. period) varying by 25–50% from one cycle to the next in the majority (>50%) of cycle pairs. (Synonym: pseudoperiodic). ( Hirsch et al., 2013 ).
+
+Quiet sleep: Normal sleep stage in neonates characterized by eye closure, absence of rapid eye movements, and scant body movements, except for occasional sucking activity or myoclonic jerks. The EEG shows tracé alternant in term and near term infants and tracé discontinue (discontinuous pattern) in preterm infants; the interburst interval depend on the post menstrual age. (See active sleep, tracé alternant and tracé discontinue).
+
+Reactivity: A phenomena in which the EEG pattern clearly and reproducibly changes with sensory (visual, auditory or noxious) stimulation. Changes may occur in frequency, morphology and/or amplitude, including attenuation of activity after the stimulus. Comment: appearance of muscle activity or eye blink artifacts or heart rate does not qualify as reactive. In general terms reactivity of the EEG in comatose patients is a favorable prognostic sign.
+
+Record: The end product of the EEG recording process. Synonyms: recording, tracing.
+
+Recording: (1) The process of obtaining an EEG record. Synonym: tracing. (2) The end product of the EEG recording process, most commonly on to digital storage media. Synonyms: record, tracing.
+
+Record of electrocerebral inactivity: See electrocerebral inactivity.
+
+Reference electrode: (1) In general: any electrode against which the potential variations of another electrode are measured. (2) Specifically: a suitable reference electrode is historically connected to the input terminal 2 of an EEG amplifier and placed so as to minimize the likelihood of recording the same EEG activity as detected by an exploring electrode (connected to the input terminal 1 of the same amplifier), or of other activities. Comments: (1) Whatever the location of the reference electrode, the possibility that it might be affected by appreciable EEG potentials should always be considered. (2) A reference electrode connected to the input terminal 2 of all EEG amplifiers is referred to as a common reference electrode. (See exploring electrode).
+
+Referential derivation: Recording from a pair of electrodes consisting of an exploring electrode historically connected to the input terminal 1 and a reference electrode usually connected to the input terminal 2 of an EEG amplifier (see exploring and reference electrode, input terminal 1 and 2, referential montage).
+
+Referential montage: A montage consisting of referential derivations. Comment: a referential montage in which the reference electrode is common to multiple derivations is referred to as a common reference montage (see referential derivation).
+
+Reformatting: Transformation of digitized EEG into different montages. Reformatting requires that the raw EEG signal is recorded to a common reference electrode. Only those electrodes can be included in the reformatting montages which are connected to amplifier input 1.
+
+Regional: EEG activity that is limited to a region of the scalp overlying a lobe (i.e. frontal, temporal, parietal, occipital). (See focal, multiregional).
+
+Regular: Applies to waves or complexes of approximately constant period and relatively uniform appearance. Synonyms: rhythmic, monomorphic (use of latter term discouraged).
+
+REM: Rapid eye movements characterizing REM sleep. Conjugate, irregular, sharply peaked eye movements with an initial deflection lasting <0.5 s (see REM sleep). Comment: not to be confused with saccadic eye movements in an awake subject during visual scanning.
+
+REM atonia: Normal reduction of tonic skeletal muscle activity during REM sleep.
+
+REM sleep: Sleep stage characterized by low amplitude mixed frequency EEG activity, episodic bursts of predominantly horizontal rapid eye movements (REM) and reduction of axial tonic muscle activity; frequently associated with dreams; phasic muscle activity, sawtooth waves and changes in respiration may occur. (See active sleep, Non-REM sleep).
+
+Resistance-capacitance (RC) coupled amplifier: A multistage amplifier wherein successive stages of amplifiers are connected (coupled) using a combination of a resistor and a capacitor. (See also Direct coupled amplifier).
+
+Resolution: The resolution of an analogue–digital (AD) converter (see digital EEG) is specified in binary digits or “bits”, which approximates to the fineness of detail in the amplitude domain. For example, a dynamic range of ±1023 µV (a total span of 2046 µV), converted at 12-bit resolution, will allow the digitized signal to take on values every 0.5 µV.
+
+Rhythm: EEG activity consisting of waves of approximately constant period.
+
+Rhythmic: Applied to regular waves occurring at a constant period and of relatively uniform morphology. Synonyms: regular, monomorphic (use of latter term discouraged).
+
+Rhythmic temporal theta: A normal graphoelement in preterm infants (GA 24–34 weeks of post menstrual age, maximal 29–32 weeks). Consisting of brief theta bursts (4.5–6 c/s) over the temporal regions, typically symmetrical but not necessarily synchronous. Synonyms: premature temporal theta, temporal sawtooth bursts.
+
+Rhythmic temporal theta burst of drowsiness: A normal variant. Characteristic burst of 4–7 c/s waves whose morphology is frequently notched by faster waves, occurring over the temporal regions of the head during drowsiness, bilaterally or independently. Synonyms: rhythmic midtemporal discharge, psychomotor variant pattern (use of terms discouraged).
+
+Rhythm of alpha frequency: (1) In general: any rhythm in the alpha band. (2) Specifically: term should be used to designate those activities in the alpha band which differ from the alpha rhythm as regards their topography and/or reactivity and do not have specific appellations (such as mu rhythm and alpha coma) (see alpha rhythm).
+
+Ripples: Part of the high frequency oscillations (HFOs) bandwidth, usually defined as being in the range of 80–250 Hz (see high frequency oscillations).
+
+Rolandic spikes: Uni-or bilateral triphasic sharp waves in the centro-temporal area seen in childhood epilepsy with centro-temporal spikes. They often have a tangential (horizontal) dipole oriented with negativity in centro-temporal/parietal areas and positivity in the frontal region, and increase during sleep with a tendency to appear in series. Synonym: centro-temporal spikes or discharges (see benign epileptiform discharges of childhood: use of term discouraged).
+
+Sampling rate: Frequency in Hz used for sampling the digital EEG. Sampling rates in the 250–500 Hz range are common. Higher sampling rates may be appropriate for specific applications, for example 1000–2000 Hz in intra-cranial depth EEG. (See analog-to-digital conversion, Nyquist theorem).
+
+Sawtooth (saw-tooth) waves: Brief runs of rhythmic sharp waves of 4–7 c/s, often of quite high amplitude (up to 125 µV). (See premature temporal theta).
+
+Scalp electrode: Electrode held against, attached to, or needle inserted in the scalp.
+
+Scalp electroencephalogram: Record of electrical activity of the brain by means of electrodes placed on the surface of the head. The term should be used only to distinguish between scalp and other electroencephalograms, such as intra-cranial depth electroencephalograms. In all other instances, a scalp electroencephalogram should be referred to simply as an electroencephalogram (EEG).
+
+Scalp electroencephalography: Technique of recording scalp electroencephalograms. Should be referred to simply as electroencephalography (EEG).
+
+Secondary bilateral synchrony: Spreading by propagation of an initially focal or regional epileptiform discharge to become generalized (see generalized). Synonym: secondary generalization.
+
+Seizure pattern, EEG: Phenomenon consisting of repetitive epileptiform EEG discharges at >2 c/s and/or characteristic pattern with quasi-rhythmic spatio-temporal evolution (i.e. gradual change in frequency, amplitude, morphology and location), lasting at least several seconds (usually >10 s). Two other short duration (<10 s) EEG seizure patterns are: electrodecrement and low voltage fast activity seen during clinically apparent epileptic seizures. Frequent interictal epileptiform discharges are usually not associated with clinical seizures and thus should be differentiated from EEG seizure patterns. Comment: EEG seizure patterns unaccompanied by clinical epileptic manifestations should be referred to as electrographic or subclinical seizures. (See electrodecrement and low voltage fast activity). Synonym: ictal EEG pattern.
+
+Sensitivity: Ratio of input voltage to output trace deflection in an EEG channel. Sensitivity is measured in microvolts per millimeter (µV/mm). Example:
+
+Sharp wave: An epileptiform transient clearly distinguished from the background activity, although amplitude varies. A pointed peak at a conventional time scale and duration of 70–200 ms, usually with a steeper ascending phase when compared to the descending phase. Main component is generally negative relative to other areas, and may be followed by slow wave of the same polarity. Comments: (1) term should be restricted to epileptiform discharges, and does not apply to: (a) distinctive physiological events such as vertex sharp transients, lambda waves and positive occipital sharp transients of sleep, (b) sharp transients poorly distinguished from background activity (without or with a slow wave for example six Hz spike-and-slow-wave). (2) Sharp waves should be differentiated from spikes, i.e. transients having similar characteristics but shorter duration. However, it should be kept in mind that this distinction is largely arbitrary and primarily serves descriptive purposes.
+
+Sharp-and-slow-wave complex: An epileptiform pattern consisting of a sharp wave and an associated following slow wave, clearly distinguished from background activity. May be single or multiple. (See sharp wave).
+
+Simultaneous: Occurring at the same time. Synonym: synchronous.
+
+Sine wave: Wave having the form of a sine curve, describing a smooth periodic repetitive oscillation.
+
+Sinusoidal: Term applies to EEG waves resembling sine waves (see sine wave).
+
+Six Hz spike-and-slow-wave: Spike-and-slow-wave complexes at 4–7 c/s, but mostly at 6 c/s occurring generally in brief bursts bilaterally and synchronously, symmetrically or asymmetrically, and either confined to or of larger amplitude over the posterior or anterior regions of the head. Amplitude varies but is generally smaller than that of spike-and-slow-wave complexes repeating at slower rates. Comment: when low amplitude, posterior and during drowsiness this pseudo-epileptiform pattern should be distinguished from epileptiform discharges. Synonym: phantom spike-and-wave (use of term discouraged).
+
+Sleep onset REM (SOREM): Occurrence of REMs less than 15 min after falling asleep, typically seen in association with narcolepsy (but may be seen in apneic patients and even healthy volunteers). (See REM).
+
+Sleep spindle: A normal graphoelement. Train of distinct waves with frequency at 11–16 Hz (most commonly at 12–14 Hz) with a duration ≥0.5 s. Generally higher amplitude over the central regions of the head, occurring during sleep. Amplitude varies but is maximal using central derivations.
+
+Sleep stages: Distinctive phases of sleep best demonstrated by polygraphic recordings of the EEG and other variables, including at least eye movements and activity of certain voluntary muscles. Comment: classified by various systems (see Iber et al., 2007 , Silber et al., 2007 , based on the frameworks of Dement and Kleitman, 1957 , Rechtschaffen and Kales, 1968 ).
+
+Slow activity: Any activity of frequency less than alpha rhythm, i.e. theta and delta bands.
+
+Slow alpha variant rhythms: A normal variant. Rhythms mostly at 4–5 Hz, recorded over the posterior regions of the head, that behave like the posterior dominant rhythm in response to activation (i.e. are blocked or attenuated by attention, especially eye opening and mental effort). Generally alternate, or are intermixed, with the alpha rhythm to which they often are harmonically related. They may have a notched morphology but are not generally considered abnormal. Amplitude varies but is frequently close to 50 µV. Comment: slow alpha variant rhythms should be distinguished from posterior slow waves of youth, characteristic of children and adolescents and occasionally seen in young adults (see posterior dominant rhythm, posterior slow waves of youth).
+
+Slow-fused transient: A normal graphoelement. A sharply contoured component of the normal posterior dominant rhythm precedes a posterior slow wave of youth, giving the false impression of a spike-and-slow-wave.
+
+Slow wave: Wave with duration longer than alpha waves, i.e. over 1/8 s (>125 ms).
+
+Slow wave sleep: Non-REM sleep stage N3. Synonym: deep sleep. (See deep sleep, REM sleep).
+
+Small sharp spikes (SSS): A normal variant. Small sharp spikes of very short duration (<50 ms) and low amplitude (<50 µV), often followed by a small theta wave, occurring in the temporal regions during drowsiness and light sleep. Synonym: benign epileptiform transients of sleep (use of term discouraged).
+
+Somatosensory evoked potential (SEP): Evoked potential in response to somatosensory stimulus, usually electrical stimulation of a sensory or mixed nerve (see evoked potential).
+
+Special electrode: Any electrode other than standard ten-twenty system scalp electrodes (for example surface sphenoidal or anterior “cheek” electrode, and closely spaced electrodes; see ten-ten system).
+
+Sphenoidal electrode: Strictly needle or wire electrode inserted through the soft tissues of the face below the zygomatic arch so that its tip lies near the base of the skull in the region of the foramen ovale, designed to record from the medial temporal lobe structures. (See basal electrode).
+
+Spike: A transient, clearly distinguished from background activity, with pointed peak at a conventional time scale and duration from 20 to less than 70 ms. Amplitude varies but typically >50 μV. Main component is generally negative relative to other areas. Comments: (1) term should be restricted to epileptiform discharges. EEG spikes should be differentiated from sharp waves, i.e. transients having similar characteristics but longer durations. However, it should be kept in mind that this distinction is largely arbitrary and primarily serves descriptive purposes. (2) EEG spikes should be clearly distinguished from the brief unit spikes recorded from single cells with microelectrode techniques. (See sharp wave).
+
+Spike-and-slow-wave complex: An epileptiform pattern consisting of a spike and an associated following slow wave, clearly distinguished from background activity. May be single or multiple.
+
+Spindle: Group of rhythmic waves characterized by a progressively increasing, then gradually decreasing, amplitude (see sleep spindle).
+
+Spread: Propagation of EEG waves from one region of the scalp and/or brain to another (see generalization, propagation).
+
+Standard electrode: Conventional scalp electrode (see disk electrode, needle electrode, pad electrode, special electrode).
+
+Standard electrode placement: Scalp electrode location(s) determined by the ten-twenty system (see ten-twenty system).
+
+Status epilepticus, EEG: The occurrence of virtually continuous or repetitive epileptiform seizure pattern in an EEG. Term should be distinguished from clinical status epilepticus, although they may co-exist. (See seizure pattern). Synonym: electrographic status epilepticus.
+
+Stereotactic (stereotaxic) electroencephalogram (SEEG): Intracerebral EEG recordings using electrodes implanted stereotactically, thus permitting the calculation of electrode coordinates that can be projected on a stereotactic brain atlas or magnetic resonance images to create three-dimensional pictures. Note the abbreviation SDEEG is also used for stereotactic depth electroencephalogram. Synonym: stereoelectroencephalography.
+
+Stereotactic (stereotaxic) electroencephalography (SEEG): Technique of recording stereotactic (stereotaxic) electroencephalograms. Synonym: stereoelectroencephalogram.
+
+Sternospinal reference: A non-cephalic reference achieved by interconnecting two electrodes placed over the right sternoclavicular junction and the spine of the seventh cervical vertebra, respectively, and balancing the voltage between them by means of a potentiometer to reduce ECG artifact.
+
+Stimulus-induced rhythmic, periodic or ictal discharges (SIRPIDs): Sharp transients that are rhythmic, periodic or ictal appearing discharges in comatose patients that are consistently induced by alerting stimuli including: auditory and other sensory stimulation, such as noxious (airway suctioning) and other patient-care activities. SIRPIDs may be regional or lateralized, bilateral or generalized, and of variable duration. Their pathophysiology and clinical significance is uncertain, but on occasions may be associated with clinical seizures.
+
+Subclinical rhythmic discharges of adults (SREDA): This paroxysmal pattern is usually seen in the adult age group (typically over 50 years) and consists of a mixture of frequencies, often predominantly in the theta range, lasting 40–80 s. It may resemble a seizure discharge but is not accompanied by any clinical signs or symptoms. The significance of this pattern is uncertain, but it should be distinguished from an epileptiform seizure pattern.
+
+Subdural electrode: Electrode inserted under the dural covering of the cerebrum for recording of electrocorticogram as a pre-surgical evaluation of medically intractable partial epilepsy, usually in the form of electrode strips. Synonym: epicortical electrode (use of term discouraged).
+
+Suppression: Entirety of an EEG record showing activity below 10 µV (reference derivation). (See burst suppression pattern).
+
+Symmetry: Approximately equal amplitude, frequency and form of EEG activities over homologous areas on opposite sides of the head.
+
+Synchrony: The simultaneous occurrence of EEG waves over distinct regions on the same or opposite sides of the head with the same speed and phase. Comment: term simultaneous only implies a lack of possible delay that is measurable with standard computer display. Certain electrodes are so close (for example Fp1-Fp2 and 01–02 respectively) that volume conduction can affect the signal on the other side, making these electrodes unsuitable for assessing synchrony). (See volume conduction).
+
+Temporal intermittent rhythmic delta activity (TIRDA): An EEG pattern characterized by short trains of intermittent and rhythmic delta activity (1–3.5 Hz), often with sawtooth morphology, recorded predominantly over the anterior temporal regions. TIRDA usually occurs during drowsiness and light sleep and may either be unilateral or bilateral, occurring independently. It is associated with temporal lobe epilepsy, and when unilateral is virtually indicative of ipsilateral pathology.
+
+Temporal slow activity of the elderly: Pattern of uncertain significance but usually not considered abnormal. Unilateral (most often on the left side) or bilateral, short runs of theta or delta activity intermixed with the background activity over the temporal region(s), in subjects >50 years of age, without clinical abnormalities. Often accentuates during drowsiness and hyperventilation.
+
+Ten-ten (10–10) system: System of standardized scalp electrode placement. According to this system, additional scalp electrodes are placed at half distance between the standard electrodes of the ten-twenty system, i.e. 10 percentile increments of the reference curve (see ten-twenty system, closely spaced electrodes). Comment: use of additional supplementary scalp electrodes is indicated for instance during epilepsy monitoring, theoretically in order localize epileptiform discharges more precisely (for example surface sphenoidal or anterior “cheek” electrode). (See special electrode).
+
+Ten-twenty (10–20) system: System of standardized scalp electrode placement recommended by the International Federation of Clinical Neurophysiology. According to this system, the placement of electrodes is determined by measuring the head from 4 external landmarks and taking 10 or 20 percentiles of these measurements. Comment: the use of additional supplementary scalp electrodes, such as electrodes in the inferior temporal chain of electrodes, is indicated in various circumstances (for example focal epilepsy investigation).
+
+Theta band: Frequency band from 4−<8 Hz. Greek letter: θ.
+
+Theta rhythm: Rhythm with a frequency of 4−<8 Hz.
+
+Theta wave: Wave with duration of 1/4 to over 1/8 s (125–250 ms).
+
+Three Hz or three per second spike-and-slow-wave complex: Characteristic ictal paroxysmal pattern consisting of a regular sequence of spike-and-slow-wave complexes which: (1) repeat at around 3–3.5 c/s (measured during the first few seconds of the paroxysm), (2) are bilaterally synchronous in their onset and termination (i.e. “generalized”), and usually of maximal amplitude over the frontal areas, and (3) remain approximately synchronous and symmetrical on the two sides of the head throughout the paroxysmal burst. Amplitude varies but can reach values of 1000 µV (1 mV). Characteristic seizure pattern associated with Childhood Absence Epilepsy.
+
+Time constant (TC): Historically the product of the values of the resistance (in mega-ohms, MΩ) and the capacitance (in microfarads, μF) which make up the time constant control of an EEG channel. This product represents the time required for the trace to fall to 37% of the deflection initially produced when a DC voltage difference is applied to the input terminals of the amplifier. Expressed in seconds (s). Comment: for a simple Resistance-Capacitance coupling network, the TC is related to the percent reduction in sensitivity of the channel at a given stated low frequency by the equation TC =1/2πf, where f is the frequency at which a 30% (3 dB) attenuation occurs. For instance, for a TC of 0.3 s, an attenuation of 30% (3 dB) occurs at 0.5 Hz. Thus, either the time constant or the percent attenuation at a given stated low frequency can be used to designate the same position of the low frequency filter of the EEG channel (see low frequency filter). In the digital era this process is internally governed by the software of the system.
+
+Topography: Spatial distribution of EEG features (rhythm, voltage fields, spectra, evoked potential etc.) over the scalp or cerebral cortex. (See map voltage).
+
+Tracé alternant: Neonatal EEG pattern of quiet (non-REM) sleep seen in term and near term infants from 34 to 36 weeks post menstrual age onwards, which may persist up to 4 weeks after birth. It is characterized by high amplitude bursts of predominantly slow waves (50–150 µV) alternating with periods of relatively low amplitude activity mixed activities (25–50 µV). (See quiet sleep).
+
+Tracé continu: Continuous background activity, consisting of theta and/or delta frequencies (>25 µV), replacing a previously markedly intermittent record during evolution of EEG in preterm infants. Present in active sleep (see active sleep).
+
+Tracé discontinu: Normal discontinuous pattern in preterm infants which is characterized by bursts of high amplitude (up to 300 µV) mixed frequency activity regularly interrupted by low amplitude interburst activity (<25 µV). The pattern can still be called discontinuous if there is a modest amount of EEG activity in a single channel or a single transient in multiple channels. The interburst interval depends on the post menstrual age (PMA). It is seen in wakefulness, active and quiet sleep until 30 weeks PMA, then only in quiet sleep, and is rarely seen in infants of 38 weeks PMA. (See active and quiet sleep).
+
+Tracing: Synonyms: record, recording.
+
+Transient, EEG: Any isolated wave or complex, distinguished from background activity.
+
+Transverse bipolar montage: A montage consisting of contiguous channels of electrode pairs along transverse/coronal (i.e. side-to-side) arrays (for example F7-F3, F3-Fz, Fz-F4, F4-F8, etc.). Synonym: coronal bipolar montage.
+
+Triangular bipolar montage: A historic montage consisting of derivations from pairs of electrodes in a group of 3 electrodes arranged in a triangular pattern. Use of this montage is discouraged, because false lateralization may occur.
+
+Triphasic wave (TW): High amplitude (over 70 µV) positive sharp transients (with respect to common average), which are preceded and followed by relatively low amplitude negative waves. The first negative wave generally has lower amplitude than the negative afterwave, and has a steeper slope, which on occasions may be sharp. Usually bilateral with an antero-posterior or a postero-anterior lag, and repetition rate of about 1−<2 c/s. TWs occur typically in runs, and can either regress or increase with arousal or noxious stimuli. Often there is little ongoing or low amplitude (<40 µV) slow background activity between TWs. They are seen in a range of conditions, often present concurrently, associated with metabolic encephalopathy. The patient is usually comatose, and TW may decrease with sleep and after intravenous benzodiazepines. Synonym: continuous 2/s GPDs (with triphasic morphology).
+
+Unilateral: Confined to one side of the head (or body). Comments: (1) unilateral EEG activities may be focal, regional or lateralized to one hemisphere. (2) They are said to be lateralized to the right or left side of the head. (See lateralized).
+
+Vertex sharp transient or vertex sharp wave (V wave): A normal graphoelement. Sharply contoured wave with duration <0.5 s, maximal at the vertex, negative relative to other areas, apparently occurring spontaneously during light sleep or in response to a sensory stimulus (usually auditory). Vertex sharp waves may be single or repetitive. Amplitude varies but rarely exceeds 250 µV. (See light sleep, K complex).
+
+Visual evoked potential: Cortical evoked potential generated in response to visual stimulus, either unstructured diffuse flashes or patterned (for example pattern-reversal stimulus). (See evoked potential).
+
+Voltage: The difference in electric potential between two points (units: volts). (See amplitude).
+
+Volume conduction: The passive process by which electrical activity, originating from a generator, spreads through a conductive medium to be detected quite widely by distant (i.e. far-field) recording electrodes, without being mediated by neural activity (for example, see Brainstem Auditory Evoked Potential). (See propagation).
+
+Wave: Any change of the potential difference between pairs of electrodes in EEG recording, which may arise in the brain (an EEG wave) or outside of it (i.e. extracerebral potential).
+
+Waveform (wave form): The shape or morphology of an EEG wave (see morphology).
+
+Wicket spikes or wicket waves: Spike-like monophasic surface negative single waves or trains of waves occurring over the temporal regions, typically unilateral, during drowsiness that have an arcuate or mu-like appearance. These are mainly seen in older individuals and represent a benign physiological variant, but may also be seen in patients with a clinical diagnosis of epilepsy.
+
+Writer: Historically a system for direct write-out of the output of an EEG channel. Most writers used ink delivered by a pen, but in certain instruments the ink was sprayed in a jet stream, and in others the pen writer used carbon paper. Used infrequently since the advent of digital EEG, where laser printers are used to write-out EEGs.
+

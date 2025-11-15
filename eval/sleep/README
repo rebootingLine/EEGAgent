@@ -1,0 +1,4 @@
+get a model by training on Sleep-EDF (https://www.physionet.org/content/sleep-edfx/1.0.0/)
+step1. Download Dataset to sleep-cassette
+step2. execute predeal.py
+step3. execute train.py

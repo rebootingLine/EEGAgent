@@ -1,0 +1,29 @@
+I_Patient_Information:
+  name: ""
+  age: ""
+  gender: ""
+  date_of_examination: ""
+
+II_History:
+  reason_for_eeg: ""
+  relevant_clinical_information: ""
+
+III_Technical_Description:
+  electrode_system: ""
+  recording_duration: ""
+  patient_consciousness: "Awake"
+
+IV_EEG_Description:
+  background_activity: ""
+  abnormal_findings: ""
+  artifacts: ""
+
+V_Impression:
+  summary: ""
+  abnormal_findings: ""
+
+VI_Clinical_Correlation:
+  interpretation: ""
+  recommendation: ""
+
+VII_Conclusion: "Simple explanation for overall normality and abnormality."

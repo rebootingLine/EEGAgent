@@ -1,0 +1,125 @@
+{
+  "dataPath": "",
+  "report_template_path": "RAG",
+  "fs": 256,
+  "l_freq": 0.5,
+  "h_freq": 70,
+  "notch_freq": 60,
+  "similarity_threshold": 0.6,
+  "prior knowledge": {
+    "pathological normality": "Normal EEG patterns include organized background activity and common artifacts, whereas abnormal findings typically involve focal or generalized slowing, epileptiform discharges, or seizure patterns.",
+    "available_channel": "Hemisphere || Prefrontal || Frontal || Temporal || Central || Parietal || Occipital\nLeft || FP1-F3, FP1-F7 || F3-C3, F7-T3 || T3-T5, T3-C3, A1-T3 || C3-CZ || C3-P3 || T5-O1, P3-O1\nRight || FP2-F4, FP2-F8 || F4-C4, F8-T4 || T4-T6, C4-T4, T4-A2 || CZ-C4 || C4-P4 || T6-O2, P4-O2",
+    "freq_bands": {
+      "delta": [
+        0.5,
+        4
+      ],
+      "theta": [
+        4,
+        8
+      ],
+      "alpha": [
+        8,
+        13
+      ],
+      "beta": [
+        13,
+        30
+      ],
+      "gamma": [
+        30,
+        70
+      ]
+    },
+    "Age factor": [
+      {
+        "min_age": 0.0,
+        "max_age": 0.167,
+        "features": [
+          "Occipital alpha: none",
+          "Mu rhythm: present, low-medium amplitude",
+          "Frontal θ: none",
+          "Hyperventilation: not feasible",
+          "Photic driving: 4 Hz elicitable, response weak"
+        ]
+      },
+      {
+        "min_age": 0.167,
+        "max_age": 1.0,
+        "features": [
+          "Occipital alpha: 3-4 Hz; ~6 Hz by 12 months",
+          "Mu rhythm: relatively increased, medium amplitude",
+          "Frontal θ: none",
+          "Hyperventilation: not feasible",
+          "Photic driving: good response to low-frequency after 6 months"
+        ]
+      },
+      {
+        "min_age": 1.0,
+        "max_age": 3.0,
+        "features": [
+          "Occipital alpha: increases to ~8 Hz (occasionally 9 Hz)",
+          "Mu rhythm: still prominent",
+          "Frontal θ: occasionally at 3 years",
+          "Hyperventilation: mostly not feasible",
+          "Photic driving: good response to low-frequency stimulation"
+        ]
+      },
+      {
+        "min_age": 3.0,
+        "max_age": 5.0,
+        "features": [
+          "Occipital alpha: increases to ~7-9 Hz",
+          "Mu rhythm: occipital  alpha mixed with slow waves, amplitude high",
+          "Frontal θ: occasional, not common",
+          "Hyperventilation: clear δ response",
+          "Photic driving: good response to low-frequency stimulation"
+        ]
+      },
+      {
+        "min_age": 6.0,
+        "max_age": 12.0,
+        "features": [
+          "Occipital alpha: 10 Hz, moderate amplitude",
+          "Mu rhythm: occipital slow-wave activity reduced",
+          "Frontal θ: slightly increased",
+          "Hyperventilation: clear δ response",
+          "Photic driving: good response to 8-16 Hz stimulation"
+        ]
+      },
+      {
+        "min_age": 13.0,
+        "max_age": 20.0,
+        "features": [
+          "Occipital alpha: average 10 Hz, low amplitude",
+          "Mu rhythm: few low-amplitude θ waves",
+          "Frontal θ: slightly increased then decreases by 20 years",
+          "Hyperventilation: δ response not obvious",
+          "Photic driving: good response to mid-frequency stimulation"
+        ]
+      },
+      {
+        "min_age": 20.0,
+        "max_age": 60.0,
+        "features": [
+          "Occipital alpha: average 10 Hz, low amplitude",
+          "Mu rhythm: θ response not obvious",
+          "Frontal θ: not obvious",
+          "Hyperventilation: δ response not obvious",
+          "Photic driving: photic driving gradually disappears"
+        ]
+      },
+      {
+        "min_age": 60.0,
+        "max_age": 200.0,
+        "features": [
+          "Occipital alpha: average 8-9 Hz, low amplitude",
+          "Mu rhythm: increased low-amplitude slow waves in frontal/temporal regions",
+          "Frontal θ: not obvious",
+          "Hyperventilation: not recommended",
+          "Photic driving: photic driving not obvious"
+        ]
+      }
+    ]
+  }
+}
