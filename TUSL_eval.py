@@ -184,7 +184,7 @@ for q in tqdm(questions[:gap]):
     try:
         agent = EEGAgent(config_path="config/config.json", 
                          file_name=q['edf'], 
-                         api_key = "sk-7a3c99d6bac144e3ab655eec9b2edb6b", 
+                         api_key = "***", 
                          base_url="https://dashscope.aliyuncs.com/compatible-mode/v1")
         user_question = f'''Please find all epileptic seizures in this EEG between {round(q['x'])} seconds and {round(q['y'])} seconds. 
 Check all channels. For each detected seizure, return exactly one line in this format:
