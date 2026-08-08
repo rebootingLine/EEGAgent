@@ -43,7 +43,7 @@ class EEGAgent:
     def prepare_user_message(self, user_query: str):
         self.messages.append({'role': 'user', 'content': user_query})
 
-    def call_model(self, model="qwen-plus-2025-09-11"): # qwen3-14b qwen3-32b qwen3-235b-a22b qwen-plus-2025-07-28
+    def call_model(self, model="qwen3-235b-a22b"): # qwen3-14b qwen3-32b qwen3-235b-a22b
         completion = self.client.chat.completions.create(
             model=model,
             messages=self.messages,
@@ -82,11 +82,16 @@ class EEGAgent:
                 function_return.append(new_call)
             except Exception as e:
                 print(f"{function_name} execution unsuccessful: {e}")
-                raise e
+                new_call = call.copy()
+                new_call['return'] = {
+                    "error": repr(e),
+                    "instruction": "The tool call failed. Revise the arguments to satisfy the tool constraints before calling again."
+                }
+                function_return.append(new_call)
         messageMerge(function_return, self.messages)
         return True  
 
-    def run(self, user_query):
+    def run(self, user_query, max_rounds=8):
         from RAG.embedder import BGEEmbedder
         from RAG.searcher import FaissSearcher
         
@@ -107,7 +112,8 @@ class EEGAgent:
         local_tool_time = 0.0
 
         start_total = time.time()
-        while True:
+        stopped_by_max_rounds = False
+        while total_rounds < max_rounds:
             round_start = time.time()
             response = self.call_model()
             round_end = time.time()
@@ -120,6 +126,8 @@ class EEGAgent:
 
             if not has_more_tools:
                 break
+        else:
+            stopped_by_max_rounds = True
 
         total_duration = time.time() - start_total
 
@@ -128,14 +136,16 @@ class EEGAgent:
             "rounds": total_rounds,
             "model_time": total_time,
             "local_tool_time": local_tool_time,
-            "total_time": total_duration
+            "total_time": total_duration,
+            "stopped_by_max_rounds": stopped_by_max_rounds
         }
         
 
 if __name__ == "__main__":
+    # api_key 和 bse_url 配置大模型
     agent = EEGAgent(
         config_path="config/config.json",
-        file_name="spsw_077_a_1.edf",
+        file_name="gped_049_a_6.edf",
         api_key = "***",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )

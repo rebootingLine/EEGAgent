@@ -2,11 +2,26 @@ from collections import defaultdict
 import pandas as pd
 import glob
 import os
+import re
+from pathlib import Path
+from main import EEGAgent
+from utils.tuev_metrics import score_predictions, write_file_outputs, write_global_outputs
+
+pattern = re.compile(r"\(\s*([^,()]+?)\s*,\s*([0-9]+(?:\.[0-9]+)?)\s*,\s*([0-9]+(?:\.[0-9]+)?)\s*\)")
 
 # ================= CONFIG =================
-IOU_THRESHOLD = 0.7
+DATA_DIR = "./data/edf"
+OUT_DIR = "runs/tuev_agent"
+CONFIG_PATH = "config/config.json"
+API_KEY = os.environ.get("DASHSCOPE_API_KEY", "***")
+BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+MODEL_NAME = "main.py default"
+SLEEP_SECONDS = 5
+
+REPORT_OVERLAP_THRESHOLD = 0.7
 MERGE_GAP_THRESHOLD = 1.0
 POSITIVE_CLASSES = [1, 2, 3]
+NEGATIVE_CLASSES = [4, 5, 6]
 
 CHANNEL_MAP = {
     0: 'FP1-F7', 1: 'F7-T3', 2: 'T3-T5', 3: 'T5-O1',
@@ -108,34 +123,6 @@ def process_rec_annotations(input_file, output_dir='candidates', gap_threshold=1
 
     return merged_df, candidates
 
-def calculate_iou(boxA, boxB):
-    inter_start = max(boxA[0], boxB[0])
-    inter_end = min(boxA[1], boxB[1])
-    intersection = max(0, inter_end - inter_start)
-    union = (boxA[1]-boxA[0]) + (boxB[1]-boxB[0]) - intersection
-    return intersection / union if union > 0 else 0
-
-def merge_predictions(predictions, gap_threshold=MERGE_GAP_THRESHOLD):
-    if not predictions: return []
-    df = pd.DataFrame(predictions)
-    df.rename(columns={'start_time': 'start', 'end_time': 'end'}, inplace=True)
-    merged = []
-    for channel, sub in df.groupby('channel'):
-        sub = sub.sort_values('start')
-        current_start, current_end = None, None
-        for _, row in sub.iterrows():
-            s, e = row['start'], row['end']
-            if current_start is None:
-                current_start, current_end = s, e
-            elif s <= current_end + gap_threshold:
-                current_end = max(current_end, e)
-            else:
-                merged.append({'channel': channel, 'start_time': current_start, 'end_time': current_end})
-                current_start, current_end = s, e
-        if current_start is not None:
-            merged.append({'channel': channel, 'start_time': current_start, 'end_time': current_end})
-    return merged
-
 def process_and_merge_rec_file(input_file, gap_threshold=MERGE_GAP_THRESHOLD):
     df = pd.read_csv(input_file, header=None, names=['channel', 'start', 'end', 'class'])
     df['channel'] = df['channel'].astype(int)
@@ -159,6 +146,7 @@ def process_and_merge_rec_file(input_file, gap_threshold=MERGE_GAP_THRESHOLD):
 
 def load_ground_truth(data_folder):
     gt_data = defaultdict(list)
+    negative_data = defaultdict(list)
     rec_files = glob.glob(os.path.join(data_folder, "**", "*.rec"), recursive=True)
     for rec_path in rec_files:
         edf_path = rec_path.replace(".rec", ".edf")
@@ -168,58 +156,121 @@ def load_ground_truth(data_folder):
         positive['channel_name'] = positive['channel'].map(CHANNEL_MAP)
         positive.dropna(subset=['channel_name'], inplace=True)
         gt_data[edf_path] = positive.to_dict('records')
-    return gt_data
+        negative = merged_df[merged_df['class'].isin(NEGATIVE_CLASSES)].copy()
+        negative['channel_name'] = negative['channel'].map(CHANNEL_MAP)
+        negative.dropna(subset=['channel_name'], inplace=True)
+        negative_data[edf_path] = negative.to_dict('records')
+    return gt_data, negative_data
 
 # ==================== MAIN LOOP ====================
 from tqdm import tqdm
-results_storage = defaultdict(list)  
-questions = build_questions("./data/edf")
-ground_truth = load_ground_truth('./data/edf')
+results_storage = defaultdict(list)
+raw_logs = defaultdict(list)
+questions = build_questions(DATA_DIR)
+ground_truth, negative_labels = load_ground_truth(DATA_DIR)
 
 
 gap = len(questions)
 for q in tqdm(questions[:gap]):
     import time
-    time.sleep(5)  
-    try:
-        agent = EEGAgent(config_path="config/config.json", 
-                         file_name=q['edf'], 
-                         api_key = "***", 
-                         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1")
-        user_question = f'''Please find all epileptic seizures in this EEG between {round(q['x'])} seconds and {round(q['y'])} seconds. 
+    time.sleep(SLEEP_SECONDS)
+    agent = None
+    user_question = f'''Please find all epileptic seizures in this EEG between {round(q['x'])} seconds and {round(q['y'])} seconds. 
 Check all channels. For each detected seizure, return exactly one line in this format:
 (channel_name, time_start, time_end)
 Do not include any extra text, explanation, or commentary. 
 Each line should correspond to one seizure event. List all events for all channels'''
+    try:
+        agent = EEGAgent(config_path=CONFIG_PATH,
+                         file_name=q['edf'],
+                         api_key=API_KEY,
+                         base_url=BASE_URL)
         result = agent.run(user_question)
         raw_response = result['response']
         extracted_events = pattern.findall(raw_response)
         extracted_events_processed = [{'channel': e[0], 'start_time': float(e[1]), 'end_time': float(e[2])} for e in extracted_events]
+        messages = agent.messages
+        error = None
         results_storage[q['edf']].append(extracted_events_processed)
     except Exception as e:
-        results_storage[q['edf']].append([])
+        result = None
+        raw_response = ""
+        extracted_events_processed = []
+        messages = getattr(agent, "messages", None)
+        error = repr(e)
+        results_storage[q['edf']].append(extracted_events_processed)
+
+    raw_logs[q['edf']].append({
+        "pair_index": 0,
+        "stem": Path(q['edf']).stem,
+        "edf": q['edf'],
+        "rec": q['edf'].replace(".edf", ".rec"),
+        "candidate_index": q['candidate_index'],
+        "window": {"start": q['x'], "end": q['y']},
+        "question": user_question,
+        "model": MODEL_NAME,
+        "raw_response": raw_response,
+        "parsed_events": extracted_events_processed,
+        "result_meta": result,
+        "messages_file": str(Path(OUT_DIR) / Path(q['edf']).stem / "messages" / f"{Path(q['edf']).stem}.messages.json"),
+        "error": error,
+        "messages": messages,
+    })
 
 # ==================== ANALYSIS ====================
-total_preds, total_gt, hits = 0, 0, 0
+total_raw_preds, total_preds, total_gt, hits = 0, 0, 0, 0
+strict_unmatched_reports = 0
+explicit_negative_reports = 0
+unverified_reports = 0
 for edf_path, predictions_list in results_storage.items():
     gt_labels = ground_truth.get(edf_path, [])
-    total_gt += len(gt_labels)
-    merged_preds = merge_predictions([p for sublist in predictions_list for p in sublist])
-    total_preds += len(merged_preds)
-    
-    matched = [False]*len(merged_preds)
-    for gt in gt_labels:
-        gt_box = [gt['start'], gt['end']]
-        for i, pred in enumerate(merged_preds):
-            if matched[i]: continue
-            if pred['channel'] == gt['channel_name'] and calculate_iou(gt_box, [pred['start_time'], pred['end_time']]) >= IOU_THRESHOLD:
-                hits += 1
-                matched[i] = True
-                break
+    neg_labels = negative_labels.get(edf_path, [])
+    raw_preds = [p for sublist in predictions_list for p in sublist]
+    file_metrics, _report_episodes, scored_report_episodes = score_predictions(
+        gt_labels, neg_labels, raw_preds, threshold=REPORT_OVERLAP_THRESHOLD, gap_threshold=MERGE_GAP_THRESHOLD
+    )
+
+    total_gt += file_metrics["total_gt"]
+    total_raw_preds += file_metrics["total_raw_preds"]
+    total_preds += file_metrics["total_preds"]
+    hits += file_metrics["hits"]
+    strict_unmatched_reports += file_metrics["strict_unmatched_reports"]
+    explicit_negative_reports += file_metrics["explicit_negative_reports"]
+    unverified_reports += file_metrics["unverified_reports"]
+
+    stem = Path(edf_path).stem
+    write_file_outputs(
+        out_dir=OUT_DIR,
+        stem=stem,
+        edf_path=edf_path,
+        rec_path=edf_path.replace(".edf", ".rec"),
+        model=MODEL_NAME,
+        gt_events=gt_labels,
+        negative_events=neg_labels,
+        raw_predictions=raw_preds,
+        metrics=file_metrics,
+        scored_report_episodes=scored_report_episodes,
+        raw_logs=raw_logs.get(edf_path, []),
+        report_overlap_threshold=REPORT_OVERLAP_THRESHOLD,
+    )
 
 print("Analysis complete.")
-print(f"Total Predictions: {total_preds}")
+print(f"Total Raw Predictions: {total_raw_preds}")
+print(f"Total Report Episodes: {total_preds}")
 print(f"Total Ground Truths: {total_gt}")
 print(f"Hits (TP): {hits}")
 print(f"Misses (FN): {total_gt - hits}")
-print(f"False Positives (FP): {total_preds - hits}")
+print(f"Hit Rate: {hits / total_gt if total_gt else float('nan')}")
+
+# Report-level error terms:
+# Strict Unmatched Reports: report episodes with no same-channel positive GT overlap.
+# Explicit Negative Reports: strict unmatched reports that overlap labeled negative events.
+# Unverified Reports: strict unmatched reports in unlabeled regions; labels are unknown.
+print(f"Strict Unmatched Reports: {strict_unmatched_reports}")
+print(f"Strict Unmatched Report Rate: {strict_unmatched_reports / total_preds if total_preds else float('nan')}")
+print(f"Explicit Negative Reports: {explicit_negative_reports}")
+print(f"Explicit Negative Report Rate: {explicit_negative_reports / total_preds if total_preds else float('nan')}")
+print(f"Unverified Reports: {unverified_reports}")
+print(f"Unverified Report Rate: {unverified_reports / total_preds if total_preds else float('nan')}")
+
+write_global_outputs(OUT_DIR)

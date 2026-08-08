@@ -1,0 +1,15 @@
+{
+  "files": 159,
+  "threshold": 0.7,
+  "total_gt": 2736,
+  "total_reports": 4325,
+  "hit_rate": 0.7430555555555556,
+  "strict_unmatched_report_rate": 0.5091329479768786,
+  "explicit_negative_report_rate": 0.06312138728323699,
+  "unverified_report_rate": 0.4460115606936416,
+  "hits": 2033,
+  "misses": 703,
+  "strict_unmatched_reports": 2202,
+  "explicit_negative_reports": 273,
+  "unverified_reports": 1929
+}

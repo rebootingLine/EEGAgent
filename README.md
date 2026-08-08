@@ -11,7 +11,8 @@ EEGAgent/
 ├─ prompt.py               # Prompt construction and management
 ├─ MDD_eval.py             # Evaluation pipeline for MDD task
 ├─ Sleep_eval.py           # Evaluation pipeline for sleep staging
-├─ TUSL_eval.py            # Evaluation pipeline for TUSL task
+├─ TUEV_eval.py            # Evaluation pipeline for TUSL task
+├─ TUEV_oracle_run.py      # Evaluation tool-only performance on TUEV eval set
 ├─ README.md               # Project documentation
 ├─ __init__.py
 
@@ -47,6 +48,10 @@ EEGAgent/
 │  └─ sentenceModel/
 │     └─ bge-m3/
 
+├─ runs/                   # runs log
+│  ├─ tuev_agent
+│  ├─ tuev_oracle_run
+
 ├─ tools/                  # EEG processing and feature extraction utilities
 │  ├─ baseInfo.py
 │  ├─ dataLoad.py
@@ -72,6 +77,7 @@ EEGAgent/
    ├─ messageMerge.py
    ├─ parseCalling.py
    ├─ transFormat.py
+   ├─ tuev_metrics.py
    └─ __pycache__/
 ```
 

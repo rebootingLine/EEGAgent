@@ -1,0 +1,15 @@
+{
+  "files": 1,
+  "model": "main.py default",
+  "total_gt": 0,
+  "total_reports": 0,
+  "hit_rate": NaN,
+  "strict_unmatched_report_rate": NaN,
+  "explicit_negative_report_rate": NaN,
+  "unverified_report_rate": NaN,
+  "hits": 0,
+  "misses": 0,
+  "strict_unmatched_reports": 0,
+  "explicit_negative_reports": 0,
+  "unverified_reports": 0
+}

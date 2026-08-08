@@ -12,7 +12,7 @@ def getSystemPrompt(base_info, tool_meta, knowledge, report_template):
     <ARGS> {{ "arg1": value1, "arg2": value2, ... }}
     The tool will return:
     <RETURN> tool output
-
+    If a requested time interval is longer than you selected tool allows, split the interval into consecutive valid tool calls that satisfy that tool's time limit. Example: If the user asks to inspect 15-32 seconds and the selected tool allows at most 10 seconds, call the tool on 15-25 and 25-32, not 15-32.
     Catious: All tool calls that reference time must use indices within this recording’s duration of {base_info['data_duration']} seconds.
     """
     return prompt
