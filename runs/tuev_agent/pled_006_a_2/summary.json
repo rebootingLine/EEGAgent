@@ -1,0 +1,15 @@
+{
+  "files": 1,
+  "model": "qwen3-235b-a22b",
+  "total_gt": 15,
+  "total_reports": 53,
+  "hit_rate": 1.0,
+  "strict_unmatched_report_rate": 0.7735849056603774,
+  "explicit_negative_report_rate": 0.0,
+  "unverified_report_rate": 0.7735849056603774,
+  "hits": 15,
+  "misses": 0,
+  "strict_unmatched_reports": 41,
+  "explicit_negative_reports": 0,
+  "unverified_reports": 41
+}
